@@ -1,0 +1,52 @@
+body {
+  overflow: hidden;
+  width: 100% !important;
+  height: 100% !important;
+  position: static !important;
+}
+
+.b-wrapper-uc {
+  display: none;
+}
+
+.for-ie {
+  display: block;
+  position: absolute;
+  text-align: center;
+  z-index: 999999;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #4caa26;
+  color: #fff;
+  padding-top: 100px;
+  font: 24px Arial, Tahoma, Verdana, sans-serif;
+  padding: 100px 40px 50px;
+}
+
+.for-ie_title {
+  font-size: 40px;
+}
+
+.for-ie_text {
+  width: 700px;
+  margin: 30px auto;
+  line-height: 1.3;
+}
+
+.for-ie_info {
+  font-size: 26px;
+}
+
+.for-ie_info a {
+  color: #fff;
+  border-bottom: 0;
+  text-decoration: underline;
+}
+
+.for-ie_info a:hover {
+  text-decoration: none;
+}

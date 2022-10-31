@@ -1,0 +1,230 @@
+
+<!--[if IE 8 ]><html class="ie ie8" lang="ru"> <![endif]-->
+<!--[if IE 9 ]><html class="ie ie9" lang="ru"> <![endif]-->
+<!--[if (gte IE 10)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="robots" content="noindex, nofollow">
+		<meta name="keywords" content="">
+		<title>Выбор способа оплаты</title>
+		<link href="http://fonts.googleapis.com/css?family=Roboto:700,500,400,300&subset=latin,cyrillic,latin-ext" rel="stylesheet">
+		<link rel="stylesheet" href="css/assets.min.css" media="all">
+		<!--[if !IE]><!-->
+			<script>if(/*@cc_on!@*/false){document.documentElement.className+=' ie10';}</script>
+		<!--<![endif]-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="tab-links">
+				<div class="tl-tab active" data-id="content-1">
+					<label class="tab-label fake-radio-label">
+						<span class="radio-checked"></span>
+						<input class="tab-radio" type="radio" name="pay" checked>
+						<span class="label-name">Ihre Kreditkarte</span>
+					</label>
+					<div class="tab-sale">
+						<span class="ts-text">Rabatt sichern</span>
+						<span class="ts-per">3<i>%</i></span>
+					</div>
+					<div class="clear"></div>
+					<div class="tab-card-number">
+						<span class="tcn-logo mastercard-card"></span>
+						<span class="tcn-text">*******7602&nbsp;<i>(06/14)</i></span>
+					</div>
+					<div class="tab-links-popup">
+						<a class="tlp-link tlp-link-modal" href="#modal-card">Eine Karte hinzufügen</a>
+						<a class="tlp-link tlp-link-show-popup" data-id="popup-1" href="#">Eine andere Karte wählen</a>
+					</div>
+					<div class="popup small-popup" id="popup-1">
+						<div class="card-number">
+							<span class="cn-logo mastercard-card" data-logo="mastercard-card"></span>
+							<span class="cn-text">*******8316&nbsp;<i>(06/14)</i></span>
+						</div>
+						<div class="card-number">
+							<span class="cn-logo visa-card" data-logo="visa-card"></span>
+							<span class="cn-text">*******2345&nbsp;<i>(06/14)</i></span>
+						</div>
+						<div class="card-number">
+							<span class="cn-logo amex-card" data-logo="amex-card"></span>
+							<span class="cn-text">*******7602&nbsp;<i>(06/14)</i></span>
+						</div>
+						<div class="card-number">
+							<span class="cn-logo mastercard-card" data-logo="mastercard-card"></span>
+							<span class="cn-text">*******8876&nbsp;<i>(06/17)</i></span>
+						</div>
+						<div class="card-number">
+							<span class="cn-logo visa-card" data-logo="visa-card"></span>
+							<span class="cn-text">*******2300&nbsp;<i>(05/20)</i></span>
+						</div>
+						<div class="card-number">
+							<span class="cn-logo amex-card" data-logo="amex-card"></span>
+							<span class="cn-text">*******7772&nbsp;<i>(02/11)</i></span>
+						</div>
+						<i class="close-popup"></i>
+					</div>
+				</div>
+				<div class="tl-tab" data-id="content-2">
+					<label class="tab-label fake-radio-label">
+						<span class="radio-checked"></span>
+						<input class="tab-radio" type="radio" name="pay">
+						<span class="label-name">Guthaben</span>
+					</label>
+					<div class="tab-sale">
+						<span class="ts-text">Rabatt sichern</span>
+						<span class="ts-per">5<i>%</i></span>
+					</div>
+					<div class="clear"></div>
+					<div class="tab-price">375&nbsp;&euro;</div>
+				</div>
+				<div class="tl-tab disabled" data-id="content-3">
+					<label class="tab-label fake-radio-label">
+						<span class="radio-checked disabled"></span>
+						<input class="tab-radio" type="radio" name="pay" disabled>
+						<span class="label-name">Ihr Bankkonto</span>
+					</label>
+					<div class="clear"></div>
+					<div class="tab-text">Sie haben noch keine Bankverbindung </div>
+					<div class="tab-links-popup">
+						<a class="tlp-link tlp-link-modal" href="#modal-bank">Bankverbindung hinzufügen</a>
+					</div>
+				</div>
+			</div>
+			<div class="tab-contents">
+				<div class="tc-item" id="content-1">
+					<span class="item-title">Sie zahlen mit: Guthaben </span>
+					<div class="item-list">
+						<div class="il-row il-row_red">
+							<span class="ilr-name">Rabatt für Halbpreisaktion:</span>
+							<span class="ilr-price">12,80&nbsp;&euro;</span>
+						</div>
+						<div class="il-row il-row_red">
+							<span class="ilr-name">5% Rabatt auf Guthaben-Gespräch:</span>
+							<span class="ilr-price">1,20&nbsp;&euro;</span>
+						</div>
+						<div class="il-row">
+							<span class="ilr-name">Aufpreis für Ausland:</span>
+							<span class="ilr-price">15 Ct./Min. (2,25&nbsp;&euro;)</span>
+						</div>
+						<div class="il-row">
+							<span class="ilr-name">Aufpreis für Handy: </span>
+							<span class="ilr-price">15 Ct./Min. (2,25&nbsp;&euro;)</span>
+						</div>
+						<div class="il-row">
+							<span class="ilr-name">Verbindungsgebühr: </span>
+							<span class="ilr-price">1,00&nbsp;&euro;</span>
+						</div>
+					</div>
+					<div class="item-total">
+						<span class="it-title">Abzubuchender Betrag:<i>(Betrag ohne Rabatt: 52 €)</i></span>
+						<span class="it-price">25,96&nbsp;&euro;</span>
+					</div>
+					<a class="btn btn-callback" href="#"><i class="icon-phone"></i> Jetzt verbinden</a>
+					<div class="footnote">Nach Klick auf JETZT VERBINDEN werden Sie mit dem Berater verbunden</div>
+				</div>
+				<div class="tc-item" id="content-2">
+					<span class="item-title">Sie zahlen mit: Guthaben </span>
+					<div class="item-list">
+						<div class="il-row il-row_red">
+							<span class="ilr-name">Rabatt für Halbpreisaktion:</span>
+							<span class="ilr-price">99,80&nbsp;&euro;</span>
+						</div>
+						<div class="il-row il-row_red">
+							<span class="ilr-name">7% Rabatt auf Guthaben-Gespräch:</span>
+							<span class="ilr-price">14,70&nbsp;&euro;</span>
+						</div>
+						<div class="il-row">
+							<span class="ilr-name">Aufpreis für Ausland:</span>
+							<span class="ilr-price">18 Ct./Min. (5,75&nbsp;&euro;)</span>
+						</div>
+						<div class="il-row">
+							<span class="ilr-name">Aufpreis für Handy: </span>
+							<span class="ilr-price">45 Ct./Min. (34,25&nbsp;&euro;)</span>
+						</div>
+						<div class="il-row">
+							<span class="ilr-name">Verbindungsgebühr: </span>
+							<span class="ilr-price">999,99&nbsp;&euro;</span>
+						</div>
+					</div>
+					<div class="item-total">
+						<span class="it-title">Abzubuchender Betrag:<i>(Betrag ohne Rabatt: 9999 €)</i></span>
+						<span class="it-price">9999,99&nbsp;&euro;</span>
+					</div>
+					<a class="btn btn-callback" href="#"><i class="icon-phone"></i> Jetzt verbinden</a>
+					<div class="footnote">Nach Klick auf JETZT VERBINDEN werden Sie mit dem Berater verbunden</div>
+				</div>
+				<div class="tc-item" id="content-3">
+					3
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+
+		<div class="remodal" data-remodal-id="modal-card">
+			<div class="modal-title">Neue Kreditkarte hinzufügen</div>
+			<div class="modal-description">Bei dieser Zahlungsart erhalten Sie von uns einen Rabatt von 3% auf alle Beratungshonorare.</div>
+			<form class="modal-form" action="#">
+				<div class="field">
+					<label class="mf-label">Kartennummer</label>
+					<input  class="mf-input mf-input_number-card" id="number-card" type="text" placeholder="1234 5678 9012 3456">
+				</div>
+				<div class="field">
+					<span class="mf-text">Gültig bis</span>
+					<div class="inner-field field-date">
+						<label class="mf-label">Monat</label>
+						<input  class="mf-input mf-input_number-month" data-formance_length="2" type="text" placeholder="00">
+					</div>
+					<span class="mf-text separator">/</span>
+					<div class="inner-field field-date">
+						<label class="mf-label">Jahr</label>
+						<input  class="mf-input mf-input_number-month" data-formance_length="2" type="text" placeholder="00">
+					</div>
+					<div class="inner-field field-ccv">
+						<label class="mf-label">Prüfziffer</label>
+						<input  class="mf-input mf-input_number-ccv" id="number-ccv" type="text" placeholder="CCV">
+					</div>
+					<span class="icon-faq"></span>
+					<div class="bubble-item anim">
+						<div class="bi-block bi-block_left">
+							<span class="card-ccv-1"></span>
+							<span class="bi-text">Visa, MasterCard:<br>Prüfziffer auf der Rückseite</span>
+						</div>
+						<div class="bi-block bi-block_right">
+							<span class="card-ccv-2"></span>
+							<span class="bi-text">American Express:<br>Prüfziffer auf der Vorderseite</span>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<input class="btn" type="submit" value="Hinzufügen">
+			</form>
+			<div class="modal-info">
+				<span class="icon-lock"></span>
+				<span class="mi-text">Ihre persönlichen Daten verschlüsseln wir mit modernster Technik. Sie werden absolut vertraulich und diskret behandelt. Unbefugte Dritte können keine Einsicht nehmen. Wir geben Ihre Daten überdies nicht an Dritte weiter!</span>
+			</div>
+		</div>
+
+		<div class="remodal" data-remodal-id="modal-bank">
+			<div class="modal-title">Bankkonto hinzufügen</div>
+			<div class="modal-description">Sie können diese Zahlungsart wählen wenn Sie ein Konto in Deutschland oder Österreich besitzen. </div>
+			<form class="modal-form" action="#">
+				<div class="field">
+					<label class="mf-label">Konto-Nr</label>
+					<input  class="mf-input only-number" type="text">
+				</div>
+				<div class="field">
+					<label class="mf-label">Bankleitzahl</label>
+					<input  class="mf-input only-number" type="text">
+				</div>
+				<input class="btn" type="submit" value="Hinzufügen">
+			</form>
+			<div class="modal-info">
+				<span class="icon-lock"></span>
+				<span class="mi-text">Ihre persönlichen Daten verschlüsseln wir mit modernster Technik. Sie werden absolut vertraulich und diskret behandelt. Unbefugte Dritte können keine Einsicht nehmen. Wir geben Ihre Daten überdies nicht an Dritte weiter!</span>
+			</div>
+		</div>
+		<script src="js/assets.min.js"></script>
+	</body>
+</html>

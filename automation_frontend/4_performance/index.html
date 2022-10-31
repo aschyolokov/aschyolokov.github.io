@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+    <title>Производительность</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=1024, user-scalable=no">
+    <link rel="stylesheet" href="../node_modules/shower-ok/styles/screen.css">
+
+    <style>
+        #Cover h2 {
+            font-size: 85px;
+            }
+    </style>
+
+</head>
+<body class="list">
+
+<header class="caption">
+    <h1>Производительность</h1>
+
+</header>
+
+<section class="slide shout cover h brand-bg" id="Cover"><div>
+    <h2 class="bold light place m">4. Производительность</h2>
+</div></section>
+
+<section class="slide"><div>
+    <h2>Google page speed</h2>
+
+    <a href="https://github.com/operatino/markup-process/blob/gh-pages/Gruntfile.js">Пример в markup-process</a>,
+    <a href="https://developers.google.com/speed/pagespeed/insights/?hl=ru">PageSpeed Insights</a>
+
+    <ul>
+        <li><a href="https://github.com/jrcryer/grunt-pagespeed">grunt-pagespeed</a></li>
+        <li><a href="https://ngrok.com">ngrok</a> — прокси в интернет
+            <ul>
+                <li><a href="https://github.com/bubenshchykov/ngrok">node-ngork</a></li>
+            </ul>
+        </li>
+        <li>Чем меньше индекс по пунктам, тем лучше</li>
+        <li>Чем выше общий счет, тем лучше (максимум 100)</li>
+    </ul>
+
+</div></section>
+
+<section class="slide"><div>
+    <h2>Локальные тесты</h2>
+
+    <a href="https://github.com/operatino/markup-process/blob/gh-pages/Gruntfile.js">Пример в markup-process</a>
+
+    <ul>
+        <li><a href="https://github.com/gmetais/grunt-devperf">grunt-devperf</a>,
+            <a href="https://github.com/stefanjudis/grunt-phantomas">grunt-phantomas</a></li>
+        <li>Сравнительный отчет</li>
+        <li>Кол-во запусков</li>
+        <li>Кастомные предупреждения</li>
+        <li class="next">Но время скачет :(</li>
+    </ul>
+
+</div></section>
+
+<section class="slide clean"><div>
+
+    <img class="place m" width="700" src="i/devperf.png" alt="Grunt dev-perf">
+
+</div></section>
+
+<section class="slide"><div>
+    <h2>В реальных браузрах</h2>
+
+    Через <a href="https://saucelabs.com">Sauce Labs</a>
+
+    <ul>
+        <li><a href="https://github.com/axemclion/browser-perf">browser-perf</a></li>
+        <li><a href="https://www.npmjs.org/package/saucelabs-browsertime">saucelabs-browsertime</a></li>
+        <li><a href="http://speedcurve.com/">SpeedCurve</a> на основе <a href="http://www.webpagetest.org/">WebPageTest</a></li>
+    </ul>
+
+</div></section>
+
+<section class="slide"><div>
+    <h2>Презентация «Производительность»</h2>
+    <p style="margin-top: 1em;">Следующая презентация из серии – <a href="../5_practice/index.html">«Машины должны страдать»</a></p>
+</div></section>
+
+<p style="clear: both;"><a href="../index.html">Вернуться к содержимому</a></p>
+
+<div class="progress"><div></div></div>
+<script src="../node_modules/shower-core/shower.min.js"></script>
+
+</body>
+</html>

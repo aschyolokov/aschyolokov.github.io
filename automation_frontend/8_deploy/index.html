@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+    <title>Деплой и CI</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=1024, user-scalable=no">
+    <link rel="stylesheet" href="../node_modules/shower-ok/styles/screen.css">
+
+	<!--Video plugin-->
+    <link rel="stylesheet" href="../node_modules/shower-video/shower-video.css">
+	<script src="../node_modules/shower-video/shower-video.min.js"></script>
+    <!--/Video plugin-->
+
+</head>
+<body class="list">
+
+<header class="caption">
+    <h1>Деплой и CI</h1>
+
+</header>
+
+<section class="slide shout cover h brand-bg" id="Cover"><div>
+    <h2 class="bold light place m">8. Деплой</h2>
+</div></section>
+
+<section class="slide"><div>
+    <h2>Деплой</h2>
+
+    <ul>
+        <li><a href="https://github.com/zonak/grunt-ftp-deploy">grunt-ftp-deploy</a></li>
+        <li class="next"><a href="https://github.com/jedrichards/grunt-rsync">grunt-rsync</a></li>
+        <li class="next"><a href="https://github.com/neoziro/grunt-shipit">grunt-shipit</a></li>
+    </ul>
+
+</div></section>
+
+<section class="slide"><div>
+    <h2>grunt-shipit</h2>
+
+    <ul>
+        <li>Выкачивает из репо</li>
+        <li class="next">Позволяет собрать ресурсы по эвентам (init, fetch etc)</li>
+        <li class="next">Выкладывает на сервер</li>
+        <li class="next">Отправляет команды</li>
+        <li class="next">Держит старые релизы, на которые можно откатить</li>
+    </ul>
+
+</div></section>
+
+<section class="slide"><div>
+    <h2>Можно проще</h2>
+
+    <a href="https://github.com/andrewrjones/grunt-ssh">grunt-ssh</a>
+
+    <pre>
+        <code>options: {host, user, pwd}</code>
+        <code>command: <mark>'git pull --rebase && npm i && grunt build'</mark></code>
+    </pre>
+
+</div></section>
+
+
+<section class="slide"><div>
+    <h2>Больше деплоя</h2>
+
+    <ul>
+        <li><a href="https://github.com/capistrano/capistrano">Capistrano</a></li>
+        <li><a href="https://github.com/sapegin/shipit">sapegin/shipit</a></li>
+        <li><a href="https://www.codeship.io/">codeship.io</a></li>
+    </ul>
+
+</div></section>
+
+
+<section class="slide"><div>
+    <h2>Travis CI</h2>
+
+    <ul>
+        <li>build, test на коммит, PR <span class="lp">(<a href="https://travis-ci.org/operatino/grunt-filerev-assets">пример</a>)</span></li>
+        <li>встроенная поддержка GitHub</li>
+        <li>Continuos deployment</li>
+    </ul>
+
+</div></section>
+
+<section class="slide"><div>
+    <h2>Dev Workflow</h2>
+
+    <ul>
+        <li>Feature branch</li>
+        <li>PR в мастер (+ CI)</li>
+        <li>Тестирование на препродакшене и принятие PR</li>
+        <li>Деплой из мастера</li>
+    </ul>
+
+</div></section>
+
+<section class="slide"><div>
+    <h2>Презентация «Деплой и CI»</h2>
+</div></section>
+
+<p style="clear: both;"><a href="../index.html">Вернуться к содержимому</a></p>
+
+<div class="progress"><div></div></div>
+<script src="../node_modules/shower-core/shower.min.js"></script>
+
+</body>
+</html>

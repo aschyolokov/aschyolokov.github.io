@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+/* ------------------------Footer (Start)------------------------ */
+
+footer{
+  text-align: center;
+}
+
+.to-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.f-top {
+  background-color: #fff;
+  padding: 25px 20px 30px;
+}
+
+@media only screen and (min-width: 480px) {
+  .f-top {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+.ft-menu {
+  border-bottom: 1px solid #e9e8e6;
+  padding-bottom: 12px;
+  margin-bottom: 40px;
+}
+
+.ft-menu ul li {
+  margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .ft-menu ul li {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+.ft-menu ul li a {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.ft-logo-list {
+  margin-bottom: 10px;
+}
+
+.ft-logo-list li {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 10px 15px;
+}
+
+.ft-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.ft-text a {
+  color: #3c7fbc;
+}
+
+.ft-text a:hover {
+  color: #783eaf;
+}
+
+.f-bottom {
+  background-color: #783eaf;
+  color: #fff;
+  padding: 25px 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.fb-copyright {
+  margin-bottom: 17px;
+}
+
+.fb-link {
+  display: inline-block;
+  margin-bottom: 5px;
+  text-decoration: underline;
+  color: #fff;
+}
+
+.fb-link:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  .f-bottom {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .fb-copyright {
+    float: left;
+    margin-bottom: 0;
+    margin-top: 13px;
+  }
+
+  .fb-links {
+    float: right;
+    text-align: right;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .f-top,
+  .f-bottom {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .f-top-inner,
+  .f-bottom-inner {
+    width: 940px;
+    margin: 0 auto;
+  }
+
+  .fb-links {
+    float: left;
+    text-align: left;
+    margin-top: 13px;
+    margin-left: 35px;
+  }
+
+  .fb-links br {
+    display: none;
+  }
+
+  .fb-link {
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .f-top-inner,
+  .f-bottom-inner {
+    width: 1260px;
+  }
+
+  .fb-links {
+    margin-left: 190px;
+  }
+}
+
+/* ------------------------Footer (End)------------------------ */

@@ -1,0 +1,533 @@
+<!DOCTYPE HTML>
+<!--[if IE 9 ]><html class="ie ie9" lang="ru"> <![endif]-->
+<!--[if (gte IE 10)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="date=no">
+    <meta name="format-detection" content="address=no">
+    <meta name="format-detection" content="email=no">
+    <meta name="theme-color" content="#783eaf">
+    <meta name="description" content="">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="keywords" content="">
+    <title>Заказ видеочата | Ezochat</title>
+    <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/favicons/favicon-57.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicons/favicon-57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/favicon-72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/favicon-114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicons/favicon-120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/favicon-144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicons/favicon-152.png">
+    <link rel="stylesheet" href="css/core/reset.css" media="all">
+    <link rel="stylesheet" href="css/core/icons.css" media="all">
+    <link rel="stylesheet" href="css/core/loader.css" media="all">
+    <link rel="stylesheet" href="css/core/global.css" media="all">
+    <link rel="stylesheet" href="css/plugins/slick_slider.css" media="all">
+    <link rel="stylesheet" href="css/plugins/scroll.css" media="all">
+    <link rel="stylesheet" href="css/plugins/tabs.css" media="all">
+    <link rel="stylesheet" href="css/layouts/header.css" media="all">
+    <link rel="stylesheet" href="css/layouts/footer.css" media="all">
+    <link rel="stylesheet" href="css/pages/order_chat.css" media="all">
+    <script src="js/fonts-loader.js"></script>
+    <!--[if !IE]><!-->
+      <script>if(/*@cc_on!@*/false){document.documentElement.className+=' ie10';}</script>
+    <!--<![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="header-inner">
+          <div class="btn-show-sidebar">
+            <span class="bss-hamburger"></span>
+          </div>
+          <a class="icon-logo logo" href="" title="Ezochat.com"></a>
+          <div class="h-container no-anim">
+
+            <div class="hc-search">
+              <form class="form" action="#">
+                <div class="f-field">
+                  <label for="header_search">Поиск</label>
+                  <input type="search" id="header_search" placeholder="Поиск" value="">
+                  <button class="btn btn-ghost btn-search no-anim" type="submit">
+                    <span class="icon-search-hover"></span>
+                    <span class="btn-search-text">Найти</span>
+                  </button>
+                  <div class="clear"></div>
+                </div>
+              </form>
+            </div>
+
+            <div class="hc-cabinet">
+              <a class="hc-link" href="#">
+                <span class="hcc-name">Мой кабинет</span>
+                <span class="hcc-money">42.7 кредитов</span>
+                <span class="hcc-counter incoming">5</span>
+                <span class="icon-arrow-right-small arrow"></span>
+              </a>
+              <div class="hc-mobile-menu no-anim">
+                <ul class="list-style-drop">
+                  <li><a href="#">Личный кабинет</a></li>
+                  <li><a href="#">Пополнить счет</a></li>
+                  <li><a href="#">Друзья</a></li>
+                  <li><a href="#">Группы</a></li>
+                  <li><a href="#">Альбомы</a></li>
+                  <li><a href="#">Настройки</a></li>
+                </ul>
+                <a href="#" class="btn btn-ghost">
+                  <span>Выйти</span>
+                </a>
+              </div>
+              <div class="hcc-container">
+                <div class="user-info">
+                  <div class="user-info-btn" id="user_info">
+                    <span class="ui-name">
+                      <span class="uin-text">Константин</span>
+                      <span class="icon-arrow-down"></span>
+                    </span>
+                    <span class="ui-credits">42.7 кредитов</span>
+                  </div>
+                  <div class="ui-menu">
+                    <ul class="list-style-drop">
+                      <li><a href="#">Личный кабинет</a></li>
+                      <li><a href="#">Пополнить счет</a></li>
+                      <li><a href="#">Друзья</a></li>
+                      <li><a href="#">Группы</a></li>
+                      <li><a href="#">Альбомы</a></li>
+                      <li><a href="#">Настройки</a></li>
+                    </ul>
+                    <a href="#" class="btn btn-ghost">
+                      <span>Выйти</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="favorite-experts have-experts"> <!-- Класс have-experts окрашивает звезду в случае присутствия элементов в списке -->
+                  <div class="favorite-experts-btn" id="favorite_experts">
+                    <span class="icon-star-empty"></span>
+                  </div>
+                  <div class="fe-block">
+                    <div class="block-no-list">
+                      <div class="nl-title">У вас нет избранных экспертов</div>
+                      <div class="nl-text">Чтобы было легко найти понравившегося эксперта, отметьте его «звездочкой». Таким образом он попадет в список с вамиши избранными экспертами.</div>
+                    </div>
+                    <div class="block-list">
+                      <div class="block-list-items" id="favorite_experts_list">
+
+                        <div class="list-item">
+                          <img class="li-avatar" src="images/examples/avatar-expert-1.jpg" alt="">
+                          <div class="li-info">
+                            <a href="#" class="lii-name">
+                              <span class="name-status icon-online"></span>
+                              <span class="name-text">Ольга Максимова</span>
+                            </a>
+                            <div class="lii-description">Гадание на картах Таро. Вопросы любви и отношений, Гадание на картах Таро. Вопросы любви и отношений</div>
+                          </div>
+                          <span class="li-close icon-close"></span>
+                          <div class="clear"></div>
+                        </div>
+
+                        <div class="list-item">
+                          <img class="li-avatar" src="images/examples/avatar-expert-2.jpg" alt="">
+                          <div class="li-info">
+                            <a href="#" class="lii-name">
+                              <span class="name-status icon-no-on-site"></span>
+                              <span class="name-text">Артур Пирожков</span>
+                            </a>
+                            <div class="lii-description">Любовных дел мастер. Подскажу, с кем лучше замутить Любовных дел мастер. Подскажу, с кем лучше замутить</div>
+                          </div>
+                          <span class="li-close icon-close"></span>
+                          <div class="clear"></div>
+                        </div>
+
+                        <div class="list-item">
+                          <img class="li-avatar" src="images/examples/avatar-expert-1.jpg" alt="">
+                          <div class="li-info">
+                            <a href="#" class="lii-name">
+                              <span class="name-status icon-online"></span>
+                              <span class="name-text">Ольга Максимова</span>
+                            </a>
+                            <div class="lii-description">Гадание на картах Таро. Вопросы любви и отношений, Гадание на картах Таро. Вопросы любви и отношений</div>
+                          </div>
+                          <span class="li-close icon-close"></span>
+                          <div class="clear"></div>
+                        </div>
+
+                        <div class="list-item">
+                          <img class="li-avatar" src="images/examples/avatar-expert-2.jpg" alt="">
+                          <div class="li-info">
+                            <a href="#" class="lii-name">
+                              <span class="name-status icon-no-on-site"></span>
+                              <span class="name-text">Артур Пирожков</span>
+                            </a>
+                            <div class="lii-description">Любовных дел мастер. Подскажу, с кем лучше замутить Любовных дел мастер. Подскажу, с кем лучше замутить</div>
+                          </div>
+                          <span class="li-close icon-close"></span>
+                          <div class="clear"></div>
+                        </div>
+
+                        <div class="list-item">
+                          <img class="li-avatar" src="images/examples/avatar-expert-1.jpg" alt="">
+                          <div class="li-info">
+                            <a href="#" class="lii-name">
+                              <span class="name-status icon-online"></span>
+                              <span class="name-text">Ольга Максимова</span>
+                            </a>
+                            <div class="lii-description">Гадание на картах Таро. Вопросы любви и отношений, Гадание на картах Таро. Вопросы любви и отношений</div>
+                          </div>
+                          <span class="li-close icon-close"></span>
+                          <div class="clear"></div>
+                        </div>
+
+                        <div class="list-item">
+                          <img class="li-avatar" src="images/examples/avatar-expert-2.jpg" alt="">
+                          <div class="li-info">
+                            <a href="#" class="lii-name">
+                              <span class="name-status icon-no-on-site"></span>
+                              <span class="name-text">Артур Пирожков</span>
+                            </a>
+                            <div class="lii-description">Любовных дел мастер. Подскажу, с кем лучше замутить Любовных дел мастер. Подскажу, с кем лучше замутить</div>
+                          </div>
+                          <span class="li-close icon-close"></span>
+                          <div class="clear"></div>
+                        </div>
+
+                        <div class="list-item">
+                          <img class="li-avatar" src="images/examples/avatar-expert-1.jpg" alt="">
+                          <div class="li-info">
+                            <a href="#" class="lii-name">
+                              <span class="name-status icon-online"></span>
+                              <span class="name-text">Ольга Максимова</span>
+                            </a>
+                            <div class="lii-description">Гадание на картах Таро. Вопросы любви и отношений, Гадание на картах Таро. Вопросы любви и отношений</div>
+                          </div>
+                          <span class="li-close icon-close"></span>
+                          <div class="clear"></div>
+                        </div>
+
+                        <div class="list-item">
+                          <img class="li-avatar" src="images/examples/avatar-expert-2.jpg" alt="">
+                          <div class="li-info">
+                            <a href="#" class="lii-name">
+                              <span class="name-status icon-no-on-site"></span>
+                              <span class="name-text">Артур Пирожков</span>
+                            </a>
+                            <div class="lii-description">Любовных дел мастер. Подскажу, с кем лучше замутить Любовных дел мастер. Подскажу, с кем лучше замутить</div>
+                          </div>
+                          <span class="li-close icon-close"></span>
+                          <div class="clear"></div>
+                        </div>
+
+                      </div>
+                      <a href="#" class="btn btn-ghost">
+                        <span>Все избранные эксперты</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="incoming-message have-messages"> <!-- Класс have-messages окрашивает конверт в случае присутствия сообщений -->
+                  <a href="#" class="incoming-message-btn" id="incoming_message">
+                    <span class="icon-message-empty"></span>
+                    <span class="imb-counter">3</span>
+                  </a>
+                  <div class="im-block">
+                    <div class="block-no-list">
+                      <div class="nl-title">У вас нет избранных экспертов</div>
+                      <div class="nl-text">Чтобы было легко найти понравившегося эксперта, отметьте его «звездочкой». Таким образом он попадет в список с вамиши избранными экспертами.</div>
+                    </div>
+                    <div class="block-list">
+                      <div class="block-list-items" id="incoming_message_list">
+
+                        <div class="list-item new-message">
+                          <img class="li-avatar" src="images/examples/avatar-expert-1.jpg" alt="">
+                          <div class="li-info">
+                            <a href="#" class="lii-name">
+                              <span class="name-status icon-online"></span>
+                              <span class="name-text">Ольга Максимова</span>
+                            </a>
+                            <span class="lii-date">15.04.2015</span>
+                            <div class="clear"></div>
+                            <div class="lii-description">Гадание на картах Таро. Вопросы любви и отношений, Гадание на картах Таро. Вопросы любви и отношений</div>
+                          </div>
+                          <div class="clear"></div>
+                        </div>
+
+                        <div class="list-item new-message">
+                          <img class="li-avatar" src="images/examples/avatar-expert-2.jpg" alt="">
+                          <div class="li-info">
+                            <a href="#" class="lii-name">
+                              <span class="name-status icon-no-on-site"></span>
+                              <span class="name-text">Артур Пирожков</span>
+                            </a>
+                            <span class="lii-date">15.04.2015</span>
+                            <div class="clear"></div>
+                            <div class="lii-description">Любовных дел мастер. Подскажу, с кем лучше замутить Любовных дел мастер. Подскажу, с кем лучше замутить</div>
+                          </div>
+                          <div class="clear"></div>
+                        </div>
+
+                        <div class="list-item new-message">
+                          <img class="li-avatar" src="images/examples/avatar-expert-1.jpg" alt="">
+                          <div class="li-info">
+                            <a href="#" class="lii-name">
+                              <span class="name-status icon-online"></span>
+                              <span class="name-text">Ольга Максимова</span>
+                            </a>
+                            <span class="lii-date">15.04.2015</span>
+                            <div class="clear"></div>
+                            <div class="lii-description">Гадание на картах Таро. Вопросы любви и отношений, Гадание на картах Таро. Вопросы любви и отношений</div>
+                          </div>
+                          <div class="clear"></div>
+                        </div>
+
+                        <div class="list-item">
+                          <img class="li-avatar" src="images/examples/avatar-expert-2.jpg" alt="">
+                          <div class="li-info">
+                            <a href="#" class="lii-name">
+                              <span class="name-status icon-no-on-site"></span>
+                              <span class="name-text">Артур Пирожков</span>
+                            </a>
+                            <span class="lii-date">15.04.2015</span>
+                            <div class="clear"></div>
+                            <div class="lii-description">Любовных дел мастер. Подскажу, с кем лучше замутить Любовных дел мастер. Подскажу, с кем лучше замутить</div>
+                          </div>
+                          <div class="clear"></div>
+                        </div>
+
+                        <div class="list-item">
+                          <img class="li-avatar" src="images/examples/avatar-expert-1.jpg" alt="">
+                          <div class="li-info">
+                            <a href="#" class="lii-name">
+                              <span class="name-status icon-online"></span>
+                              <span class="name-text">Ольга Максимова</span>
+                            </a>
+                            <span class="lii-date">15.04.2015</span>
+                            <div class="clear"></div>
+                            <div class="lii-description">Гадание на картах Таро. Вопросы любви и отношений, Гадание на картах Таро. Вопросы любви и отношений</div>
+                          </div>
+                          <div class="clear"></div>
+                        </div>
+
+                        <div class="list-item">
+                          <img class="li-avatar" src="images/examples/avatar-expert-2.jpg" alt="">
+                          <div class="li-info">
+                            <a href="#" class="lii-name">
+                              <span class="name-status icon-no-on-site"></span>
+                              <span class="name-text">Артур Пирожков</span>
+                            </a>
+                            <span class="lii-date">15.04.2015</span>
+                            <div class="clear"></div>
+                            <div class="lii-description">Любовных дел мастер. Подскажу, с кем лучше замутить Любовных дел мастер. Подскажу, с кем лучше замутить</div>
+                          </div>
+                          <div class="clear"></div>
+                        </div>
+
+                      </div>
+                      <a href="#" class="btn btn-ghost">
+                        <span>Все сообщения</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <!-- <a class="btn btn-ghost hc-link-no-auth" href="#">
+                <span class="icon-user-hover"></span>
+                <span class="hcc-text">Вход и регистрация</span>
+              </a> --> <!-- Ссылка входа и регистрации -->
+            </div>
+
+            <nav class="hc-menu">
+              <ul class="menu-list">
+                <li>
+                  <a href="#">Эксперты <span class="icon-arrow-right-small ml-link"></span></a>
+                  <ul>
+                    <li>
+                      <a href="#">Экстрасенсы <span class="icon-arrow-right-small"></span></a>
+                      <ul>
+                        <li>
+                          <a href="#">Биоэнергетика</a>
+                          <span class="ml-description-block">
+                            <span class="db-title">Биоэнергетика</span>
+                            <span class="db-text">Если у Вас постоянная апатия, эмоциональное опустошение, вялость, синдром хронической усталости, Вам необходимо срочно обратиться к специалисту по биоэнергетике для устранения пробоев в биополе.</span>
+                          </span>
+                        </li>
+                        <li>
+                          <a href="#">Космоэнергетика</a>
+                          <span class="ml-description-block">
+                            <span class="db-title">Космоэнергетика</span>
+                            <span class="db-text">Если у Вас постоянная апатия, эмоциональное опустошение, вялость, синдром хронической усталости, Вам необходимо срочно обратиться к специалисту по биоэнергетике для устранения пробоев в биополе.</span>
+                          </span>
+                        </li>
+                        <li><a href="#">Экстрасенсорика</a></li>
+                        <li>
+                          <a href="#">Эзотерика</a>
+                          <span class="ml-description-block">
+                            <span class="db-title">Эзотерика</span>
+                            <span class="db-text">Если у Вас постоянная апатия, эмоциональное опустошение, вялость, синдром хронической усталости, Вам необходимо срочно обратиться к специалисту по биоэнергетике для устранения пробоев в биополе.</span>
+                          </span>
+                        </li>
+                        <li><a href="#">Медиумы</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Ясновидящие <span class="icon-arrow-right-small"></span></a>
+                      <ul>
+                        <li><a href="#">Ясновидение</a></li>
+                        <li><a href="#">Телепатия</a></li>
+                        <li><a href="#">Прогнозирование будущего</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Астрологи <span class="icon-arrow-right-small"></span></a>
+                    </li>
+                    <li>
+                      <a href="#">Гадалки <span class="icon-arrow-right-small"></span></a>
+                    </li>
+                    <li>
+                      <a href="#">Тарологи <span class="icon-arrow-right-small"></span></a>
+                    </li>
+                    <li>
+                      <a href="#">Психологи <span class="icon-arrow-right-small"></span></a>
+                    </li>
+                    <li>
+                      <a href="#">Еще эксперты <span class="icon-arrow-right-small"></span></a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="#">Вебинары <span class="icon-arrow-right-small ml-link"></span></a></li>
+                <li><a href="#">Вопросы <span class="icon-arrow-right-small ml-link"></span></a></li>
+              </ul>
+            </nav>
+
+            <a href="#" class="hc-search-link">
+              <span class="hc-search-link-btn" id="search_show">
+                <span class="icon-search"></span>
+              </span>
+            </a>
+
+            <div class="clear"></div>
+
+          </div>
+          <div class="clear"></div>
+        </div>
+      </header>
+      <main>
+        <div class="order-container">
+
+          <h1 class="page-title">Заказ видеочата</h1>
+
+          <div class="breadcrumbs breadcrumbs_static">
+            <ul class="b-wrapper">
+              <li class="b-item"><span class="b-current">Представьтесь</span></li>
+              <li class="b-item"><span class="b-crumb">Закажите</span></li>
+              <li class="b-item"><span class="b-crumb">Консультируйтесь!</span></li>
+            </ul>
+          </div>
+
+          <!-- Ввод пароль -->
+          <div class="container-content">
+            <div class="expert-selected">
+              <div class="es-title">Ваш выбор</div>
+              <img src="images/examples/expert-1.jpg" alt="">
+              <div class="es-name">Иванова Татьяна Владимировна</div>
+            </div>
+            <div class="form-container">
+              <form class="form">
+                <label class="f-label-email" for="email">Пожалуйста, введите Ваш пароль</label>
+                <a class="f-label-link" href="#">Забыли пароль?</a>
+                <div class="clear"></div>
+                <div class="f-field">
+                  <input id="email" type="password" placeholder="Пароль" required>
+                </div>
+                <button class="btn btn-green btn-green_remember" type="submit"><span>Продолжить</span></button>
+                <div class="clear"></div>
+                <div class="f-intro">
+                  Нажимая кнопку «продолжить» вы соглашаетесь с условиями <a href="#">пользовательского соглашения</a>
+                </div>
+              </form>
+            </div>
+            <div class="clear"></div>
+          </div>
+
+        </div>
+
+      </main>
+      <footer>
+        <div class="f-top">
+          <div class="f-top-inner">
+            <nav class="ft-menu">
+              <ul>
+                <li><a href="#">Частые вопросы</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">Стать экспертом</a></li>
+                <li><a href="#">Стать партнером</a></li>
+              </ul>
+            </nav>
+            <ul class="list-style-drop ft-logo-list">
+              <li><span class="icon-visa"></span></li>
+              <li><span class="icon-mastercard"></span></li>
+              <li><span class="icon-paypal"></span></li>
+              <li><span class="icon-yandex-money"></span></li>
+              <li><span class="icon-webmoney"></span></li>
+              <li><span class="icon-qiwi"></span></li>
+              <li><span class="icon-sofort"></span></li>
+            </ul>
+            <div class="ft-text">
+              Оплатите услуги Ezochat.com любым удобным способом: с мобильного телефона, с банковской карты, электронными деньгами или с помощью терминалов оплаты.
+              <br>
+              <a href="#">Подробнее о пополнении счета</a>
+            </div>
+          </div>
+        </div>
+        <div class="f-bottom">
+          <div class="f-bottom-inner">
+            <div class="fb-copyright">&copy; 2014–2015 Ezochat.com</div>
+            <div class="fb-links">
+              <a href="#" class="fb-link">Условия использования сервиса</a>
+              <br>
+              <a href="#" class="fb-link">Правила сервиса и юридическая информация</a>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <div class="all-links-to-pages">
+      <ul>
+        <li><a href="category.html">Страница &laquo;Категория&raquo;</a></li>
+        <li><a href="experts_leaders.html">Страница &laquo;Эксперты-лидеры&raquo;</a></li>
+        <li><a href="login.html">Страница &laquo;Логин&raquo;</a></li>
+        <li><a href="order_chat_client_index_1.html">Страница &laquo;Заказ видеочата (Зарегистрированный пользователь, Шаг 1)&raquo;</a></li>
+        <li><a href="order_chat_client_index_2.html">Страница &laquo;Заказ видеочата (Зарегистрированный пользователь, Шаг 2)&raquo;</a></li>
+        <li><a href="order_chat_client_index_4_with_photos.html">Страница &laquo;Заказ видеочата (Зарегистрированный пользователь, Шаг 3)&raquo;</a></li>
+        <li><a href="order_chat_client_index_5.html">Страница &laquo;Заказ видеочата (Зарегистрированный пользователь, Шаг 4)&raquo;</a></li>
+        <li><a href="order_chat_new_user_index_3.html">Страница &laquo;Заказ видеочата (Новый пользователь, Шаг 3)&raquo;</a></li>
+        <li><a href="page_client.html">Страница &laquo;Клиента&raquo;</a></li>
+        <li><a href="page_expert.html">Страница &laquo;Эксперта&raquo;</a></li>
+        <li><a href="question_single_page.html">Страница &laquo;Вопроса&raquo;</a></li>
+        <li><a href="questions_faq.html">Страница &laquo;Задать вопрос&raquo;</a></li>
+        <li><a href="questions_index.html">Страница &laquo;Список вопросов&raquo;</a></li>
+        <li><a href="questions_leaders.html">Страница &laquo;Вопросы-лидеры&raquo;</a></li>
+        <li><a href="registration.html">Страница &laquo;Регистрация&raquo;</a></li>
+      </ul>
+      <div class="all-links-to-pages_trigger"><i></i></div>
+    </div>
+
+    <!--[if lte IE 9]> <script src="js/plugins/respond.matchmedia.addListener.min.js"></script> <![endif]-->
+    <script src="js/libs/jquery-2.1.3.min.js"></script>
+    <script src="js/libs/modernizr.min.js"></script>
+    <script src="js/plugins/slick.min.js"></script>
+    <script src="js/plugins/jquery.mousewheel.js"></script>
+    <script src="js/plugins/jquery.jscrollpane.min.js"></script>
+    <script src="js/plugins/jquery.mask.min.js"></script>
+    <script src="js/plugins/select.min.js"></script>
+    <script src="js/plugins/jquery.popupoverlay.js"></script>
+    <script src="js/plugins/jquery.pwstabs.js"></script>
+    <script src="js/plugins/jquery.validate.min.js"></script>
+    <script src="js/common.js"></script>
+  </body>
+</html>

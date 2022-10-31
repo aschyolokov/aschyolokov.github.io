@@ -1,0 +1,316 @@
+@charset "UTF-8";
+
+/* ------------------------Sign In and Registration forms (Start)------------------------ */
+
+.reg-auth-container .rc-enter-lk {
+  margin: 0 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media only screen and (min-width: 480px) {
+  .reg-auth-container .rc-enter-lk {
+    margin: 0 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .reg-auth-container .page-title {
+    float: left;
+  }
+
+  .reg-auth-container .rc-enter-lk {
+    margin: 30px 30px 0 0;
+    float: right;
+    min-width: 400px;
+    text-align: right;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .reg-auth-container .page-title {
+    width: auto;
+  }
+
+  .rac-top {
+    width: 940px;
+    margin: 0 auto;
+  }
+
+  .reg-auth-container .rc-enter-lk {
+    margin-right: 0;
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .rac-top {
+    width: 1260px;
+  }
+}
+
+.rc-enter-lk .rc-el-text {
+  display: block;
+  margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .rc-enter-lk .rc-el-text {
+    display: inline-block;
+    margin-right: 10px;
+  }
+}
+
+.rc-enter-lk .rc-el-link {
+  text-decoration: underline;
+  color: #3c7fbc;
+}
+
+.reg-auth-container .container-content {
+  background-color: #fff;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .reg-auth-container .container-content {
+    padding: 20px;
+    margin-top: 0;
+  }
+}
+
+.reg-auth-container .form label {
+  margin-bottom: 8px;
+}
+
+.reg-auth-container .form .f-field {
+  margin-bottom: 20px;
+}
+
+.reg-auth-container .form .f-field input:not([type="radio"]):not([type="checkbox"]) {
+  width: 100%;
+}
+
+.reg-auth-container .form .f-field_select {
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 480px) {
+  .reg-auth-container .form .f-field_select {
+    width: 32%;
+    display: inline-block;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .reg-auth-container .form .f-field_select {
+    width: 160px;
+  }
+
+  .reg-auth-container .form .f-field.f-field_new-email,
+  .reg-auth-container .form .f-field.f-field_new-password,
+  .reg-auth-container .form .f-field.f-field_new-login {
+    width: 297px;
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .reg-auth-container .form .f-field_select {
+    width: 267px;
+  }
+
+  .reg-auth-container .form .f-field.f-field_new-email,
+  .reg-auth-container .form .f-field.f-field_new-password,
+  .reg-auth-container .form .f-field.f-field_new-login {
+    width: 403px;
+    vertical-align: bottom;
+  }
+}
+
+.reg-auth-container .form .f-field_select-group {
+  margin-bottom: 25px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .reg-auth-container .form .f-field.f-field_select-group {
+    width: auto;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .reg-auth-container .form .f-field.f-field_phone {
+    width: 390px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .reg-auth-auth-container .form .f-field_select-group {
+    margin-bottom: 13px;
+  }
+}
+
+.reg-auth-container .form .f-field_phone .fp-wrapper {
+  display: table;
+  width: 100%;
+}
+
+.reg-auth-container .form .f-field_phone .fp-wrapper .select-code-block,
+.reg-auth-container .form .f-field_phone .fp-wrapper input {
+  display: table-cell;
+  vertical-align: top;
+  width: 100%;
+}
+
+.reg-auth-container .form .f-field_phone .fp-wrapper .select-code-block {
+  width: 25%;
+}
+
+@media only screen and (min-width: 480px) {
+  .reg-auth-container .form .f-field_phone .fp-wrapper .select-code-block {
+    width: 16%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .reg-auth-container .form .f-field_phone .fp-wrapper .select-code-block {
+    width: 9%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .reg-auth-container .form .f-field_phone .fp-wrapper .select-code-block {
+    width: 16%;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .reg-auth-container .form .f-field_phone .fp-wrapper .select-code-block {
+    width: 17%;
+  }
+}
+
+.reg-auth-container .form .f-field_phone .fp-wrapper input {
+  width: 100%;
+}
+
+.reg-auth-container .form .f-field_phone .fp-wrapper .select2-container .select2-selection--single {
+  -webkit-border-radius: 4px 0 0 4px;
+     -moz-border-radius: 4px 0 0 4px;
+      -ms-border-radius: 4px 0 0 4px;
+          border-radius: 4px 0 0 4px;
+}
+
+.reg-auth-container .form .f-field_phone .fp-wrapper .select2-container .select2-selection--single .select2-selection__arrow {
+  width: 25px;
+  right: 0;
+}
+
+.reg-auth-container .form .f-field_phone .fp-wrapper input {
+  -webkit-border-radius: 0 4px 4px 0;
+     -moz-border-radius: 0 4px 4px 0;
+      -ms-border-radius: 0 4px 4px 0;
+          border-radius: 0 4px 4px 0;
+}
+
+.reg-auth-container .form .btn {
+  width: 100%;
+}
+
+.reg-auth-container .form .f-intro {
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .reg-auth-container .form .f-field {
+    float: none;
+    width: 100%;
+  }
+
+  .reg-auth-container .form .btn {
+    float: none;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .reg-auth-container .form .f-field_radio .radio-group label {
+    margin-left: 30px;
+  }
+
+  .reg-auth-container .form .f-intro {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .reg-auth-container .form .btn {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+.f-security-text {
+  display: table;
+  width: 100%;
+  margin-top: 25px;
+  font-size: 12px;
+  background-color: #f3f2ee;
+  padding: 10px 15px;
+  line-height: 14px;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.f-security-text .fst-icon,
+.f-security-text .fst-text {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.f-security-text .fst-text {
+  padding-left: 12px;
+}
+
+.reg-auth-container .form .f-field_login-password label:not(.error) {
+  float: left;
+}
+
+.reg-auth-container .form .f-field_login-password .f-label-link {
+  float: right;
+}
+
+.reg-auth-container .form .f-field_checkbox label {
+  margin: 0;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 30px;
+}
+
+#login_form .btn {
+  margin-bottom: 0;
+}
+
+.reg-auth-container_expert .form textarea {
+  width: 100%;
+  min-height: 100px;
+}
+
+@media only screen and (min-width: 768px) {
+  .reg-auth-container_expert .form textarea {
+    min-height: 200px;
+  }
+}
+
+.reg-auth-container_expert .form .btn {
+  margin-bottom: 0;
+}
+
+/* ------------------------Sign In and Registration forms (End)------------------------ */

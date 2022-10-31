@@ -1,0 +1,600 @@
+@charset "UTF-8";
+
+/* ------------------------Order Chat Page (Start)------------------------ */
+
+.order-container .container-content {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 15px;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.order-container .breadcrumbs {
+  margin-top: 0;
+}
+
+.order-container .expert-selected {
+  margin-bottom: 20px;
+  border: 2px solid #783eaf;
+  padding: 15px;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+          border-radius: 4px;
+}
+
+@media only screen and (min-width: 640px) {
+  .order-container .expert-selected {
+    width: 40%;
+    float: right;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .order-container .expert-selected {
+    width: 30%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+.order-container .expert-selected .es-title {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.order-container .expert-selected img {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.order-container .expert-selected .es-name {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 640px) {
+  .order-container .form-container {
+    width: 55%;
+    float: left;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .order-container .form-container {
+    width: 65%;
+  }
+}
+
+.order-container .form .f-label-email {
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 780px) {
+  .order-container .form .f-label-email {
+    float: left;
+  }
+
+  .f-label-link {
+    float: right;
+  }
+}
+
+.order-container .form input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.order-container .form .btn {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .order-container .form .f-field {
+    float: left;
+    width: 70%;
+  }
+
+  .order-container .form .btn {
+    float: right;
+    width: 28%;
+    /*margin-top: 35px;*/
+  }
+
+  .order-container .form .f-intro {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .form .f-intro {
+    margin-top: 0;
+  }
+
+  .order-container .container-content {
+    padding: 40px;
+  }
+}
+
+.order-container .welcome-text {
+  background-color: #783eaf;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 12px 15px;
+  text-align: center;
+  margin-bottom: 20px;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.order-container .list-radiobutton .lc-items {
+  display: inline-block;
+  margin-left: -3%;
+  width: 103%;
+}
+
+.order-container .list-radiobutton .lc-items li {
+  width: 47%;
+  float: left;
+  margin-left: 3%;
+}
+
+@media only screen and (min-width: 480px) {
+  .order-container .list-radiobutton .lc-items {
+    width: 104%;
+  }
+
+  .order-container .list-radiobutton .lc-items li {
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .order-container .list-radiobutton .lc-items {
+    width: 106%;
+    margin-left: -2%;
+  }
+
+  .order-container .list-radiobutton .lc-items li {
+    width: 14%;
+    margin-left: 2%;
+  }
+}
+
+.order-container .list-radiobutton .lc-items li input {
+  opacity: 0;
+  position: absolute;
+  left: -9999px;
+  width: auto;
+  margin: 0;
+}
+
+.order-container .list-radiobutton .lc-items li label {
+  display: block;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 300;
+  line-height: 50px;
+  margin-bottom: 10px;
+  background-color: #c5abdd;
+  cursor: pointer;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+          border-radius: 4px;
+}
+
+@media only screen and (min-width: 768px) {
+  .order-container .list-radiobutton .lc-items li label {
+    font-size: 16px;
+  }
+}
+
+.order-container .list-radiobutton .lc-items li label.selected,
+.order-container .list-radiobutton .lc-items li label:hover {
+  background-color: #783eaf;
+}
+
+.order-container .list-radiobutton .lc-items li label span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.order-container .list-radiobutton .lc-items li label span i {
+  font-style: normal;
+}
+
+.order-container .add-photos {
+  /*margin-top: 20px;*/
+}
+
+.order-container .add-photo-link {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 12px 0 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .order-container .add-photo-link,
+  .order-container .btn-start-chat {
+    width: 350px;
+    margin: 0 auto;
+  }
+}
+
+.order-container .add-photo-link input {
+  opacity: 0;
+  width: 0;
+}
+
+.order-container .add-photos .ap-text {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1000px) {
+  /* .add-photo-link {
+    margin: 0;
+  } */
+
+  .order-container .add-photos .ap-text {
+    text-align: left;
+  }
+}
+
+.order-container .add-photos .ap-list-photos {
+  margin-left: -13px;
+  display: inline-block;
+}
+
+.order-container .add-photos .ap-list-photos .lp-item {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin-bottom: 8px;
+  position: relative;
+  margin-left: 13px;
+  margin-right: -5px;
+}
+
+@media only screen and (min-width: 480px) {
+  .order-container .add-photos .ap-list-photos .lp-item {
+    margin-left: 14px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .order-container .add-photos .ap-list-photos {
+    margin-bottom: 3px;
+  }
+}
+
+.order-container .add-photos .ap-list-photos .lp-item img {
+  display: block;
+  height: 70px;
+  object-fit: contain;
+  object-position: center center;
+}
+
+.order-container .add-photos .ap-list-photos .lp-item .lp-delete-photo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -15px;
+  margin-top: -15px;
+  opacity: .4;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  display: block;
+  text-align: center;
+  line-height: 38px;
+  cursor: pointer;
+  -webkit-border-radius: 30px;
+     -moz-border-radius: 30px;
+      -ms-border-radius: 30px;
+          border-radius: 30px;
+}
+
+.order-container .add-photos .ap-list-photos .lp-item .lp-delete-photo:hover {
+  opacity: 1;
+}
+
+.order-container .resume-order {
+  margin-bottom: 20px;
+}
+
+.order-container .resume-order .ro-title {
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+@media only screen and (min-width: 480px) {
+  .order-container .resume-order .ro-title {
+    text-align: left;
+  }
+}
+
+.order-container .resume-order .ro-title b {
+  font-size: 22px;
+}
+
+.order-container .resume-order .ro-list {
+  margin-left: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .order-container .resume-order .ro-list {
+    margin-left: 20px;
+  }
+}
+
+.order-container .resume-order .ro-list li {
+  margin-bottom: 7px;
+  font-size: 16px;
+}
+
+.order-container .info-message_money {
+  margin-bottom: 20px;
+}
+
+.order-container .select-money {
+  margin-bottom: 30px;
+}
+
+.order-container .select-money .sm-info {
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.order-container .select-money .se-block {
+  margin-bottom: 15px;
+}
+
+.order-container .select-money .se-intro {
+  text-align: center;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 600px) {
+  .order-container .select-money {
+    margin-bottom: 15px;
+  }
+
+  .order-container .select-money .se-block {
+    float: left;
+    width: 35%;
+    padding-right: 15px;
+  }
+
+  .order-container .select-money .se-intro {
+    float: right;
+    width: 65%;
+    text-align: left;
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  .order-container .select-money {
+    margin-bottom: 30px;
+  }
+
+  .order-container .select-money .se-block {
+    width: 50%;
+  }
+
+  .order-container .select-money .se-intro {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .order-container .select-money {
+    margin-bottom: 30px;
+  }
+
+  .order-container .select-money .sm-info {
+    text-align: left;
+  }
+
+  .order-container .select-money .se-block {
+    width: 35%;
+  }
+
+  .order-container .select-money .se-intro {
+    width: 65%;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .order-container .select-money .se-block {
+    width: 25%;
+  }
+
+  .order-container .select-money .se-intro {
+    width: 75%;
+  }
+}
+
+.order-container_new-user .new-user-info-text {
+  padding: 10px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: #783eaf;
+  margin-bottom: 20px;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.order-container_new-user .form label {
+  margin-bottom: 8px;
+}
+
+.order-container_new-user .form .f-field_select {
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 480px) {
+  .order-container_new-user .form .f-field_select {
+    width: 32%;
+    display: inline-block;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .order-container_new-user .form .f-field_select {
+    width: 154px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .order-container_new-user .form .f-field_select {
+    width: 253px;
+  }
+}
+
+.order-container_new-user .form .f-field_select-group {
+  margin-bottom: 25px;
+}
+
+@media only screen and (min-width: 480px) {
+  .order-container_new-user .form .f-field_select-group {
+    margin-bottom: 13px;
+  }
+}
+
+.order-container_new-user .form .f-field_phone .fp-wrapper {
+  display: table;
+  width: 100%;
+}
+
+.order-container_new-user .form .f-field_phone .fp-wrapper .select-code-block,
+.order-container_new-user .form .f-field_phone .fp-wrapper input {
+  display: table-cell;
+  vertical-align: top;
+  width: 100%;
+}
+
+.order-container_new-user .form .f-field_phone .fp-wrapper .select-code-block {
+  width: 25%;
+}
+
+@media only screen and (min-width: 480px) {
+  .order-container_new-user .form .f-field_phone .fp-wrapper .select-code-block {
+    width: 16%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .order-container_new-user .form .f-field_phone .fp-wrapper .select-code-block {
+    width: 12%;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .order-container_new-user .form .f-field_phone .fp-wrapper .select-code-block {
+    width: 8%;
+  }
+}
+
+.order-container_new-user .form .f-field_phone .fp-wrapper input {
+  width: 100%;
+}
+
+.order-container_new-user .form .f-field_phone .fp-wrapper .select2-container .select2-selection--single {
+  -webkit-border-radius: 4px 0 0 4px;
+     -moz-border-radius: 4px 0 0 4px;
+      -ms-border-radius: 4px 0 0 4px;
+          border-radius: 4px 0 0 4px;
+}
+
+.order-container_new-user .form .f-field_phone .fp-wrapper .select2-container .select2-selection--single .select2-selection__arrow {
+  width: 25px;
+  right: 0;
+}
+
+.order-container_new-user .form .f-field_phone .fp-wrapper input {
+  -webkit-border-radius: 0 4px 4px 0;
+     -moz-border-radius: 0 4px 4px 0;
+      -ms-border-radius: 0 4px 4px 0;
+          border-radius: 0 4px 4px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .order-container.order-container_new-user .form .f-field {
+    float: none;
+    width: 100%;
+  }
+
+  .order-container.order-container_new-user .form .btn {
+    float: none;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-top: 35px;*/
+  }
+}
+
+.order-container_recharge .welcome-text {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.order-container_recharge .list-radiobutton .lc-items li label {
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 640px) {
+  .order-container_recharge .form-container {
+    width: 100%;
+    float: none;
+  }
+
+  .order-container_recharge .list-radiobutton .lc-items li label {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .order-container_recharge .list-radiobutton .lc-items li label {
+    font-size: 16px;
+  }
+
+  .order-container_recharge .list-radiobutton {
+    margin-bottom: 15px;
+  }
+
+  .order-container_recharge .resume-order {
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .order-container_recharge .form-container {
+    width: 860px;
+    margin: 0 auto;
+  }
+}
+
+/* ------------------------Order Chat Page (End)------------------------ */

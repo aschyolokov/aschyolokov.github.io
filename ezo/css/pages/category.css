@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/* ------------------------Category Page (Start)------------------------ */
+
+.main_category-page .categories-menu {
+  margin-top: 20px;
+}
+
+.main_category-page .mt-description {
+  line-height: 28px;
+}
+
+.main_category-page .mt-description .btn {
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .main_category-page .mt-description {
+    font-size: 16px;
+    padding: 10px 0 0;
+    line-height: 20px;
+  }
+
+  .main_category-page .mt-description .btn {
+    width: 145px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .main_category-page .mt-inner-block {
+    width: 520px;
+  }
+
+  .main_category-page .mt-description {
+    font-size: 18px;
+    padding: 12px 0 0;
+    line-height: 24px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .main_category-page .mt-inner-block {
+    width: 610px;
+  }
+}
+
+.main_category-page .mti-text {
+  font-size: 24px;
+}
+
+.main_category-page .mti-text i {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .main_category-page .mti-text i {
+    margin-right: -6px;
+  }
+}
+
+.main_category-page .top-list-experts {
+  padding-top: 15px;
+}
+
+.bottom-text-block {
+  padding: 10px 20px 35px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@media only screen and (min-width: 480px) {
+  .bottom-text-block {
+    padding: 5px 30px 40px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .bottom-text-block {
+    padding-left: 0;
+    padding-right: 0;
+    width: 940px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .bottom-text-block {
+    width: 1260px;
+  }
+}
+
+/* ------------------------Category Page (End)------------------------ */

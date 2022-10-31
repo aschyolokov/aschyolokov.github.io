@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* ------------------------Search Results (Start)------------------------ */
+
+.small-title {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.search-results_articles {
+  margin-bottom: 30px;
+}
+
+.sra-container ul {
+  list-style: none;
+}
+
+.sra-container ul li {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.sra-container ul li a {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: underline;
+  color: #783eaf;
+}
+
+.sra-container ul li a:hover {
+  text-decoration: none;
+}
+
+/* ------------------------Search Results (End)------------------------ */

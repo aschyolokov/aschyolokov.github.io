@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+    <title><%= title %></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=1024, user-scalable=no">
+    <link rel="stylesheet" href="../node_modules/shower-ok/styles/screen.css">
+
+    <style>
+        #Cover h2 {
+            font-size: 85px;
+            }
+    </style>
+</head>
+<body class="list">
+
+<header class="caption">
+    <h1><%= title %></h1>
+    <p><%= author %></p>
+</header>
+
+<section class="slide shout cover h brand-bg" id="Cover"><div>
+    <h2 class="bold light place m"><%= title %></h2>
+</div></section>
+
+<section class="slide"><div>
+    <h2>Заголовок</h2>
+
+    <ul>
+        <li>Список</li>
+    </ul>
+
+</div></section>
+
+<section class="slide"><div>
+    <h2>Презентация «<%= title %>»</h2>
+    <div class="fz-l"><%= author %>, <a href="../index.html">серия презентаций к мастер-классу</a>.</div>
+    <ul class="fz-l">
+        <li><a href="http://twitter.com/operatino">@operatino</a></li>
+        <li><a href="mailto:r@rhr.me">r@rhr.me</a></li>
+        <li><a href="http://toHTML.it">toHTML.it</a></li>
+    </ul>
+</div></section>
+
+<p style="clear: both;"><a href="../index.html">Вернуться к содержимому</a></p>
+
+<div class="progress"><div></div></div>
+<script src="../node_modules/shower-core/shower.min.js"></script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter25345736 = new Ya.Metrika({id:25345736});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/25345736" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<!-- Powered by Shower presentation engine - Copyright © 2010–2013 Vadim Makeev — pepelsbey.net -->
+</body>
+</html>

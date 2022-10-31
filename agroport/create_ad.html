@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Агропорт | Добавить объявление</title>
+    <meta name="description" content="Агропорт">
+    <meta name="robots" content="index,follow,noodp">
+    <meta name="googlebot" content="index,follow">
+    <meta name="google" content="nositelinkssearchbox">
+    <meta name="google" content="notranslate">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="date=no">
+    <meta name="format-detection" content="address=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#4caa26">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicons/mstile-144x144.png">
+    <meta name="theme-color" content="#4caa26">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="images/favicons/manifest.json">
+    <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#4caa26">
+    <link rel="stylesheet" media="screen" href="css/assets.min.css?v=556901">
+    <script src="js/libs.min.js?v=450712"></script><!--[if IE]> 
+      <link rel="stylesheet" media="screen" href="css/ie.css"><![endif]-->
+  </head>
+  <body class="b-body-uc no-js">
+    <div class="b-wrapper-uc">
+      <header class="b-header-uc">
+        <div class="b-header-uc_mobile">
+          <div class="b-header-uc_mobile-top"><a href="/" class="e-link-uc b-header-uc_logo--mobile"><img src="images/core/logo-header-mobile.png" alt="Агропорт"></a></div>
+          <div class="b-header-uc_mobile-bottom">
+            <div id="mobileSidebar" class="b-sidebar-uc">
+              <div class="b-sidebar-uc_menu">
+                <div class="b-sidebar-uc_menu-main-screen">
+                  <!-- Пользователь не авторизован-->
+                  <div style="display: none;" class="user-info-uc_btns"><a href="#" class="e-link-uc e-link-uc_reg">Регистрация</a><a href="#" class="e-link-uc e-btn-uc e-btn-uc_login">Войти</a></div>
+                  <!-- Пользователь авторизован-->
+                  <button id="inMenuProfile" class="user-info-uc">
+                    <div class="user-info-uc_img"><img src="images/content/ava.png" alt="">
+                      <div class="img-per-uc">34%</div>
+                    </div>
+                    <div class="user-info-uc_name">Прометей</div>
+                    <div class="user-info-uc_icon ic-agr-next"></div>
+                  </button>
+                  <ul class="user-menu-uc">
+                    <li><a href="#" class="e-link-uc">Профиль</a></li>
+                    <li class="is-active-uc"><a href="#" class="e-link-uc">Заказы</a></li>
+                    <li><a href="#" class="e-link-uc">Мои товары</a></li>
+                    <li><a href="#" class="e-link-uc">Мои товары</a></li>
+                    <li><a href="#" class="e-link-uc">Мои объявления</a></li>
+                    <li><a href="#" class="e-link-uc">Отзывы и рейтинг</a></li>
+                  </ul>
+                  <!-- end Пользователь авторизован-->
+                  <ul class="nav-menu-uc">
+                    <li class="is-active-uc"><a href="#" class="e-link-uc">Объявления</a></li>
+                    <li><a href="#" class="e-link-uc">Компании</a></li>
+                    <li><a href="#" class="e-link-uc">Цены</a></li>
+                    <li><a href="#" class="e-link-uc">Блог</a></li>
+                    <li><a href="#" class="e-link-uc">Стандарты</a></li>
+                  </ul>
+                </div>
+                <div class="b-sidebar-uc_menu-second-screen">
+                  <button id="backToUserMenu" class="user-info-uc">
+                    <div class="user-info-uc_icon ic-agr-chevron-left"></div>
+                    <div class="user-info-uc_back">Назад</div>
+                  </button>
+                  <ul class="user-menu-uc">
+                    <li><a href="#" class="e-link-uc">Моя страница</a></li>
+                    <li class="is-active-uc"><a href="#" class="e-link-uc">Редактировать</a></li>
+                    <li><a href="#" class="e-link-uc">Настройки</a></li>
+                    <li><a href="#" class="e-link-uc">Помощь</a></li>
+                    <li><a href="#" class="e-link-uc">Выход</a></li>
+                  </ul>
+                </div>
+              </div>
+              <button id="btnSidebar" class="b-sidebar-uc_button"><span class="sidebar-item-uc"></span></button>
+              <div class="b-clear-uc"></div>
+            </div>
+            <div class="b-header-uc_mobile-bottom_wrap"><a href="/" class="e-link-uc b-header-uc_logo--desktop"><img src="images/core/logo-header-desktop.png" alt="Агропорт"></a>
+              <div class="b-header-uc_mobile-lk">
+                <!-- Пользователь не авторизован--><a href="#" style="display: none;" class="e-link-uc e-btn-uc">Войти</a>
+                <!-- Пользователь авторизован-->
+                <div class="b-lk-uc_dropdown">
+                  <button id="lkDropdownBtn" class="b-lk-uc_dropdown-btn"><span class="item-name-uc">Прометей</span><i class="item-icon-uc ic-agr-arrow-down"></i></button>
+                  <div id="lkDropdownList" class="b-lk-uc_dropdown-list">
+                    <ul class="item-list-uc">
+                      <li><a href="#" class="e-link-uc">Моя страница</a></li>
+                    </ul>
+                    <ul class="item-list-uc">
+                      <li class="is-active-uc"><a href="#" class="e-link-uc">Редактировать</a></li>
+                      <li><a href="#" class="e-link-uc">Настройки</a></li>
+                      <li><a href="#" class="e-link-uc">Помощь</a></li>
+                    </ul>
+                    <ul class="item-list-uc">
+                      <li><a href="#" class="e-link-uc">Выход</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="b-header-uc_mobile-protect"><i class="ic-agr-security"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="b-header-uc_desktop">
+          <div class="b-inner-uc"><a href="/" class="e-link-uc b-header-uc_desktop-logo"><img src="images/core/logo-header-desktop.png" alt="Агропорт"></a>
+            <nav class="nav-m b-header-uc_desktop-menu">
+              <ul>
+                <li class="is-active-uc"><a href="#" class="e-link-uc">Объявления</a></li>
+                <li><a href="#" class="e-link-uc">Компании</a></li>
+                <li><a href="#" class="e-link-uc">Цены</a></li>
+                <li><a href="#" class="e-link-uc">Блог</a></li>
+                <li><a href="#" class="e-link-uc">Стандарты</a></li>
+              </ul>
+            </nav>
+            <!-- Пользователь не авторизован-->
+            <div style="display: none;" class="b-header-uc_desktop-user"><a href="#" class="e-link-uc e-link-uc_reg">Регистрация</a><a href="#" class="e-link-uc e-btn-uc e-btn-uc_login">Войти</a></div>
+            <!-- Пользователь авторизован-->
+            <div class="b-header-uc_desktop-user">
+              <div class="user-uc_img"><img src="images/content/ava.png" alt="">
+                <div class="img-per-uc">34%</div>
+                <div class="user-uc_progress-list">
+                  <div class="progress-list_title">Заполните все необходимые поля, ваше объявление будет первым в категории</div>
+                  <div class="progress-list_items">
+                    <div class="progress-list_item">Описание товара + 10%</div>
+                    <div class="progress-list_item">Информация о компании +20%</div>
+                    <div class="progress-list_item">Описание товара + 10%</div>
+                  </div>
+                </div>
+              </div>
+              <button id="userDropdownBtn" class="user-uc_button">
+                <div class="user-uc_name">Прометей</div>
+                <div class="user-uc_icon ic-agr-arrow-down"></div>
+              </button>
+              <div id="userDropdownList" class="user-uc_dropdown-list">
+                <ul class="item-list-uc">
+                  <li><a href="#" class="e-link-uc">Моя страница</a></li>
+                </ul>
+                <ul class="item-list-uc">
+                  <li class="is-active-uc"><a href="#" class="e-link-uc">Редактировать</a></li>
+                  <li><a href="#" class="e-link-uc">Настройки</a></li>
+                  <li><a href="#" class="e-link-uc">Помощь</a></li>
+                </ul>
+                <ul class="item-list-uc">
+                  <li><a href="#" class="e-link-uc">Выход</a></li>
+                </ul>
+              </div>
+            </div><a href="#" class="e-link-uc b-header-uc_desktop-protect"><i class="icon-item-uc ic-agr-security"></i><span class="text-item-uc">Безопасная<br>сделка</span></a>
+          </div>
+        </div>
+      </header>
+      <main class="b-main-uc">
+        <div class="b-content-uc b-content-uc_create-ad">
+          <div class="b-inner-uc">
+            <div class="b-links-group"><a href="#" class="b-links-group_link">Все объявления</a><a href="#" class="b-links-group_link is-current">Мои объявления</a></div>
+          </div>
+          <div class="b-info">
+            <div class="b-inner-uc">Объявления публикуются только после прохождения модерации. Все поля обязательны для заполнения</div>
+          </div>
+          <form class="b-form-uc">
+            <div class="b-form-uc_group">
+              <div class="b-form-uc_field b-form-uc_field--radio">
+                <input id="myAdsTypeAd1" type="radio" name="myAdsTypeAd" checked>
+                <label for="myAdsTypeAd1">Куплю</label>
+              </div>
+              <div class="b-form-uc_field b-form-uc_field--radio">
+                <input id="myAdsTypeAd2" type="radio" name="myAdsTypeAd">
+                <label for="myAdsTypeAd2">Продам</label>
+              </div>
+              <div class="b-form-uc_field b-form-uc_field--radio">
+                <input id="myAdsTypeAd3" type="radio" name="myAdsTypeAd">
+                <label for="myAdsTypeAd3">Прочее</label>
+              </div>
+            </div>
+            <div class="b-decor-line"></div>
+            <div class="b-form-uc_field">
+              <label for="myAdsCountry">Страна</label>
+              <select id="myAdsCountry" name="myAdsCountry" class="select-custom">
+                <option value="Российская Федерация">Российская Федерация</option>
+                <option value="Беларусь">Беларусь</option>
+                <option value="Украина">Украина</option>
+                <option value="Киргизия">Киргизия</option>
+              </select>
+            </div>
+            <div class="b-form-uc_field">
+              <label for="myAdsRegion">Регион</label>
+              <select id="myAdsRegion" name="myAdsRegion" class="select-custom">
+                <option value="Калужская область">Калужская область</option>
+                <option value="Московская область">Московская область</option>
+                <option value="Тульская область">Тульская область</option>
+                <option value="Ленинградская область">Ленинградская область</option>
+              </select>
+            </div>
+            <div class="b-form-uc_field">
+              <label for="myAdsCity">Город</label>
+              <select id="myAdsCity" name="myAdsCity" class="select-custom">
+                <option value="Москва">Москва</option>
+                <option value="Санкт-Петербург">Санкт-Петербург</option>
+                <option value="Тула">Тула</option>
+                <option value="Калуга">Калуга</option>
+              </select>
+            </div>
+            <div class="b-decor-line"></div>
+            <div class="b-form-uc_field">
+              <label for="myAdsTitleAd">Заголовок объявления</label>
+              <input id="myAdsTitleAd" type="text" name="myAdsTitleAd" placeholder="Введите не более 40 символов" data-max="40" class="simbols-counter">
+            </div>
+            <div class="b-form-uc_field">
+              <label for="myAdsSelectCategory">Выберите категорию</label>
+              <select id="myAdsSelectCategory" name="myAdsSelectCategory" class="select-custom">
+                <option value="Злаковые">Злаковые</option>
+                <option value="Бобовые">Бобовые</option>
+                <option value="Корнеплоды">Корнеплоды</option>
+              </select>
+            </div>
+            <div class="b-form-uc_field">
+              <label for="myAdsSelectPrim">Выберите примечания</label>
+              <select id="myAdsSelectPrim" name="myAdsSelectPrim" multiple="multiple" class="select-custom">
+                <option value="1 класс">1 класс</option>
+                <option value="мягкая">мягкая</option>
+                <option value="озимая">озимая</option>
+              </select>
+            </div>
+            <div class="b-form-uc_field b-form-uc_field--textarea">
+              <label for="myAdsText">Введите текст объявления</label>
+              <textarea name="myAdsText"></textarea>
+            </div>
+            <div class="b-form-uc_field b-form-uc_field--checkbox">
+              <input id="myAdsSetPrice" type="checkbox" name="myAdsSetPrice">
+              <label for="myAdsSetPrice">Установить стоимость</label>
+            </div>
+            <div id="myAdsPriceBlock" class="b-form-uc_group b-form-uc_group--selects">
+              <div class="b-form-uc_field">
+                <label for="myAdsPrice">Цена</label>
+                <select id="myAdsPrice" name="myAdsPrice" class="select-custom">
+                  <option value="9999999">9999999</option>
+                  <option value="8888">8888</option>
+                  <option value="77777">77777</option>
+                </select>
+              </div>
+              <div class="b-form-uc_field">
+                <label for="myAdsMera">Мера измерения</label>
+                <select id="myAdsMera" name="myAdsMera" class="select-custom">
+                  <option value="килограмм">килограмм</option>
+                  <option value="центнер">центнер</option>
+                  <option value="тонна">тонна</option>
+                </select>
+              </div>
+            </div>
+            <div class="b-decor-line"></div>
+            <div class="b-form-uc_field b-form-uc_field--image-select">
+              <div class="b-image-select_title">Выбрать картинку</div>
+              <div class="b-image-select_list">
+                <div class="b-image-select_list-item">
+                  <input id="myAdsImg1" type="radio" name="myAdsImg" checked>
+                  <label for="myAdsImg1"><img src="images/content/img-1.jpg" alt=""></label>
+                </div>
+                <div class="b-image-select_list-item">
+                  <input id="myAdsImg2" type="radio" name="myAdsImg">
+                  <label for="myAdsImg2"><img src="images/content/img-2.jpg" alt=""></label>
+                </div>
+                <div class="b-image-select_list-item">
+                  <input id="myAdsImg3" type="radio" name="myAdsImg">
+                  <label for="myAdsImg3"><img src="images/content/img-3.jpg" alt=""></label>
+                </div>
+              </div>
+            </div>
+            <div class="b-form-uc_field b-form-uc_field--checkbox">
+              <input id="myAdsPublicAfterCreate" type="checkbox" name="myAdsPublicAfterCreate">
+              <label for="myAdsPublicAfterCreate">Опубликовать сразу после создания</label>
+            </div>
+            <div class="b-form-uc_field b-form-uc_field--checkbox">
+              <input id="myAdsRule" type="checkbox" name="myAdsRule">
+              <label for="myAdsRule">Я согласен с <a href="#">Правилами пользования сервисом</a> (получения услуги)</label>
+            </div>
+            <input type="submit" value="Опубликовать" class="e-btn-uc e-btn-uc_submit">
+          </form>
+        </div>
+      </main>
+      <footer class="b-footer-uc">
+        <div class="b-footer-uc_top">
+          <div class="b-inner-uc">
+            <div class="b-footer-uc_logo-copy"><a href="/" class="e-link-uc b-footer-uc_logo"><img src="images/core/logo-footer.png" alt="Агропорт"></a>
+              <div class="b-footer-uc_copyright">&copy;&nbsp;2010 - 2016 ООО&nbsp;&quot;Агропортал&quot;</div>
+              <div class="b-clear-uc"></div>
+            </div>
+            <div class="b-footer-uc_nav">
+              <div class="b-footer-uc_nav-item">
+                <div class="item-title-uc">Профиль</div>
+                <ul class="item-list-uc">
+                  <!-- Активный пункт меню-->
+                  <li class="item-list-uc_li is-active-uc"><a href="#" class="e-link-uc">Войти</a></li>
+                  <li class="item-list-uc_li"><a href="#" class="e-link-uc">Зарегистрироваться</a></li>
+                  <li class="item-list-uc_li"><a href="#" class="e-link-uc">Восстановить доступ</a></li>
+                </ul>
+              </div>
+              <div class="b-footer-uc_nav-item">
+                <div class="item-title-uc">Выбрать поставщика</div>
+                <ul class="item-list-uc">
+                  <li class="item-list-uc_li"><a href="#" class="e-link-uc">Заказать товар</a></li>
+                  <li class="item-list-uc_li"><a href="#" class="e-link-uc">Разместить тендер</a></li>
+                  <li class="item-list-uc_li"><a href="#" class="e-link-uc">Разместить тендер</a></li>
+                </ul>
+              </div>
+              <div class="b-footer-uc_nav-item">
+                <div class="item-title-uc">Сервисы</div>
+                <ul class="item-list-uc">
+                  <li class="item-list-uc_li"><a href="#" class="e-link-uc">Поиск по сайту</a></li>
+                  <li class="item-list-uc_li"><a href="#" class="e-link-uc">Безопасная сделка</a></li>
+                  <li class="item-list-uc_li"><a href="#" class="e-link-uc">Платные опции в проектах</a></li>
+                  <li class="item-list-uc_li"><a href="#" class="e-link-uc">Реклама на сайте</a></li>
+                </ul>
+              </div>
+              <div class="b-footer-uc_nav-item">
+                <div class="item-title-uc">О сайте</div>
+                <ul class="item-list-uc">
+                  <li class="item-list-uc_li"><a href="#" class="e-link-uc">Помощь</a></li>
+                  <li class="item-list-uc_li"><a href="#" class="e-link-uc">Правила</a></li>
+                  <li class="item-list-uc_li"><a href="#" class="e-link-uc">Команда</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="b-clear-uc"></div>
+          </div>
+        </div>
+        <div class="b-footer-uc_bottom">
+          <div class="b-inner-uc">
+            <div class="b-footer-uc_social">
+              <div class="social-title-uc">Мы в соц.сетях:</div>
+              <div class="social-list-uc"><a href="#" class="e-link-uc social-item-uc"><i class="ic-agr-facebook"></i></a><a href="#" class="e-link-uc social-item-uc"><i class="ic-agr-instagram"></i></a><a href="#" class="e-link-uc social-item-uc"><i class="ic-agr-vk"></i></a></div>
+            </div>
+            <nav class="b-footer-uc_menu">
+              <ul>
+                <li><a href="#">Объявления</a></li>
+                <li><a href="#">Компании</a></li>
+                <li><a href="#">Цены</a></li>
+                <li><a href="#">Блог</a></li>
+                <li><a href="#">Стандарты</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </footer>
+      <button id="floatButton" class="e-float-button-uc"><i class="ic-agr-arrow-down"></i></button>
+    </div>
+    <script async src="js/assets.min.js?v=571114"></script>
+    <div class="for-ie">
+      <div class="for-ie_title">Ваш браузер устарел</div>
+      <div class="for-ie_text">Вы&nbsp;пользуетесь устаревшим браузером, который не&nbsp;поддерживает современные веб-стандарты и&nbsp;представляет угрозу вашей безопасности.</div>
+      <div class="for-ie_info">Пожалуйста, установите <a href="https://www.google.ru/chrome/" target="_blank">современный браузер</a>.</div>
+    </div>
+  </body>
+</html>

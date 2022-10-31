@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>TimePad</title>
+    <meta name="description" content="">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="keywords" content="">
+    <style>body{opacity:0}</style>
+    <script>!function(){function e(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function t(e){return window.localStorage&&localStorage.font_css_cache&&localStorage.font_css_cache_file===e}function n(){if(window.localStorage&&window.XMLHttpRequest)if(t(o))a(localStorage.font_css_cache);else{var n=new XMLHttpRequest;n.open("GET",o,!0),e(n,"load",function(){4===n.readyState&&(a(n.responseText),localStorage.font_css_cache=n.responseText,localStorage.font_css_cache_file=o)}),n.send()}else{var c=document.createElement("link");c.href=o,c.rel="stylesheet",document.getElementsByTagName("head")[0].appendChild(c),document.cookie="font_css_cache"}}function a(e){var t=document.createElement("style");t.innerHTML=e,document.getElementsByTagName("head")[0].appendChild(t)}var o="css/fonts.css";window.localStorage&&localStorage.font_css_cache||document.cookie.indexOf("font_css_cache")>-1?n():e(window,"load",n)}();</script>
+    <noscript>
+      <link rel="stylesheet" href="css/assets.min.css">
+    </noscript>
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="date=no">
+    <meta name="format-detection" content="address=no">
+    <meta name="theme-color" content="#111111">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#111111">
+    <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/favicons/favicon-57.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicons/favicon-57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/favicon-72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/favicon-114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicons/favicon-120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/favicon-144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicons/favicon-152.png">
+    <script src="js/libs/modernizr.min.js"></script>
+    <script src="js/libs/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="b-header_inner"><a href="#" class="icon-big-logo e-logo"></a><a href="#" class="e-link-return">Вернуться в афишу событий</a>
+        <div class="b-login">
+          <div id="login_trigger_btn" class="e-login_btn">Vadim Kiselev&nbsp;<span class="icon-small-arrow-bottom"></span></div>
+          <div class="b-login_item"><img src="" alt="" class="e-login_avatar">
+            <div class="b-login_links">
+              <div class="e-login_mail">email@mail.ru</div><a href="#">Мои настройки</a><a href="#">Подключенные сервисы</a><a href="#">Добавить организацию</a><a href="#">Выйти из системы</a>
+            </div>
+          </div>
+        </div>
+        <div class="b-clear"></div>
+        <div title="Новогодние выходные" class="b-big-title">Новогодние выходные</div>
+        <div class="b-introtext">Подборка интересных событий этой зимы</div>
+        <div class="b-ny-icon icon-label-header"></div>
+        <div data-to-id="very_intr" class="e-scroll-to"><span class="icon-long-arrow-down e-anim-arrow"></span><span class="e-scroll-to_text">Все праздничные события</span></div>
+      </div>
+    </header>
+    <div class="b-wrapper">
+      <main>
+        <div class="b-left-col">
+          <div id="very_intr" class="e-title e-title_big">Самое интересное</div>
+          <div class="b-item b-item_big">
+            <div data-remodal-target="modal_1" class="b-item_img"><img src="images/content/big-img.jpg" alt="">
+              <div class="b-img_caption">
+                <div class="b-img_caption_date">Вск, 03 января — Вск, 10 января</div>
+                <div class="b-img_caption_address"><span class="icon-small-map-label-white"></span>Москва, наб. Пресненская, д. 4, стр. 1</div>
+                <div class="b-clear"></div>
+              </div>
+            </div>
+            <div class="b-item_content">
+              <div class="b-item_content_left">
+                <div data-remodal-target="modal_1" class="e-item_title">Новый год в детском городе мастеров</div>
+                <div class="e-item_text">Согласно легенде, город мастеров «Мастерславль» располагается возле магического источника, который в течение всего года наполняется радостью и добром, а в новогодние праздники начинает излучать удивительный свет.</div>
+              </div>
+              <div class="b-item_content_right">
+                <div class="e-item_price">от 1’700 руб.</div><a href="#" data-remodal-target="modal_1" class="e-btn">Купить билет</a>
+              </div>
+            </div>
+            <div data-remodal-id="modal_1" class="remodal">
+              <div data-remodal-action="close" class="remodal-close icon-close"></div>
+              <div class="remodal-content">
+                <div class="e-remodal_title">Новый год в детском городе мастеров «Мастерславль»</div>
+                <div class="e-remodal_address"><span class="icon-small-map-label-black"></span><span class="e-address_text">Москва, наб. Пресненская, д. 4, стр. 1</span></div>
+                <div class="e-remodal_calendar"><span class="icon-calendar"></span><span class="e-calendar_text">14–30 декабря и 2–10 января 2016</span></div>
+                <div class="b-pay">
+                  <div class="e-remodal_price">от 1700 до 2600 руб.</div>
+                  <div data-to-id-popup="to_reg" class="e-btn_green">Купить билет</div>
+                </div>
+                <div class="b-remodal-content_cols">
+                  <div class="b-col_left"><img src="images/content/img-popup.jpg" alt=""></div>
+                  <div class="b-col_right">
+                    <div class="b-map"><script charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=RtjiKBjksFtyIhRQtImbz7FMSj3Oi2DG&width=100%&height=300&lang=ru_RU&sourceType=constructor"></script><a href="https://maps.yandex.ru/?um=constructor:RtjiKBjksFtyIhRQtImbz7FMSj3Oi2DG" target="_blank" class="e-link-open-map">Открыть на Яндекс-картах</a></div>
+                    <div class="e-address"><b>Адрес:&nbsp;</b>Пресненская наб., д. 4, стр. 1</div>
+                    <div class="e-address"><b>Метро:&nbsp;</b>Выставочная</div>
+                  </div>
+                  <div class="b-clear"></div>
+                </div>
+                <div class="b-remodal-content_intro">Согласно легенде, город мастеров «Мастерславль» располагается возле магического источника, который в течение всего года наполняется радостью и добром, а в новогодние праздники начинает излучать удивительный свет. Но чудеса просто так не случаются, и открыть дорогу к волшебству помогут благородные дела, искренние пожелания и добрые поступки жителей города.</div>
+                <div class="e-remodal_title e-remodal_title-small">Чудесное место для детей</div>
+                <div class="b-remodal-content_desc">
+                  <p>Город мастеров «Мастерславль» приглашает детей и их родителей принять участие в интерактивной новогодней программе, полной чудес и приключений. На нарядно украшенных улицах города развернётся праздничное действо с танцами, песнями, играми, выступлениями цирковых артистов и знакомством со сказочными персонажами. Дети раскроют секрет магической реки, найдут кристаллы добра и приведут в движение чудодейственный механизм, который подарит городу настоящий праздник.</p>
+                  <p>Для гостей также будут работать тематические новогодние мастерские. Но главным сюрпризом для всех станет яркое впечатляющее светомузыкальное шоу на городской площади, сопровождаемое снегопадом.</p>
+                  <p>«Спешите делать добро!» — под таким девизом пройдут новогодние праздники в городе мастеров, ведь именно любовь, дружба, искренность и бережное отношение к семейным ценностям смогут сделать грядущий год по-настоящему хорошим.</p>
+                </div>
+                <div id="to_reg" class="e-remodal_title e-remodal_title-small">Регистрация</div>
+                <div class="b-form_registartion"><img src="images/content/form-reg.jpg" alt=""></div>
+              </div>
+            </div>
+          </div>
+          <div class="e-title e-title_list">Новогодние елки и спектакли для детей</div>
+          <div id="list_events" class="b-items-list">
+            <div class="b-item">
+              <div data-remodal-target="modal_2" class="b-item_img"><img src="images/content/small-img-4.jpg" alt="">
+                <div class="b-img_caption">Вск, 03 января — Вск, 10 января</div>
+              </div>
+              <div class="b-item_content">
+                <div data-remodal-target="modal_2" class="e-item_title">Елки в детском клубе «Детский городок»</div>
+                <div class="e-item_address"><span class="icon-small-map-label-black"></span>Детский клуб «Детский городок» в ТЦ «Щёлково»</div>
+                <div class="e-item_text">Новогодняя пора — время беззаботной радости и волшебства. В полной мере насладиться магией зимних праздников ваш ребёнок сможет в «Детском городке», где будут проводиться спектакли, встречи с Дедом Морозом и Снегурочкой, игры и многое другое.</div>
+                <div class="b-item_content-bottom"><a href="#" data-remodal-target="modal_2" class="e-btn">Купить билет</a>
+                  <div class="e-item_price">1’500 руб.</div>
+                  <div class="b-clear"></div>
+                </div>
+              </div>
+              <div data-remodal-id="modal_2" class="remodal">
+                <div data-remodal-action="close" class="remodal-close icon-close"></div>
+                <div class="remodal-content">
+                  <div class="e-remodal_title">Елки в детском клубе «Детский городок»</div>
+                  <div class="e-remodal_address"><span class="icon-small-map-label-black"></span><span class="e-address_text">Москва, наб. Пресненская, д. 4, стр. 1</span></div>
+                  <div class="e-remodal_calendar"><span class="icon-calendar"></span><span class="e-calendar_text">14–30 декабря и 2–10 января 2016</span></div>
+                  <div class="b-pay">
+                    <div class="e-remodal_price">от 1700 до 2600 руб.</div>
+                    <div data-to-id-popup="to_reg_2" class="e-btn_green">Купить билет</div>
+                  </div>
+                  <div class="b-remodal-content_cols">
+                    <div class="b-col_left"><img src="images/content/img-popup.jpg" alt=""></div>
+                    <div class="b-col_right">
+                      <div class="b-map"><script charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=RtjiKBjksFtyIhRQtImbz7FMSj3Oi2DG&width=100%&height=300&lang=ru_RU&sourceType=constructor"></script><a href="https://maps.yandex.ru/?um=constructor:RtjiKBjksFtyIhRQtImbz7FMSj3Oi2DG" target="_blank" class="e-link-open-map">Открыть на Яндекс-картах</a></div>
+                      <div class="e-address"><b>Адрес:&nbsp;</b>Пресненская наб., д. 4, стр. 1</div>
+                      <div class="e-address"><b>Метро:&nbsp;</b>Выставочная</div>
+                    </div>
+                    <div class="b-clear"></div>
+                  </div>
+                  <div class="b-remodal-content_intro">Согласно легенде, город мастеров «Мастерславль» располагается возле магического источника, который в течение всего года наполняется радостью и добром, а в новогодние праздники начинает излучать удивительный свет. Но чудеса просто так не случаются, и открыть дорогу к волшебству помогут благородные дела, искренние пожелания и добрые поступки жителей города.</div>
+                  <div class="e-remodal_title e-remodal_title-small">Чудесное место для детей</div>
+                  <div class="b-remodal-content_desc">
+                    <p>Город мастеров «Мастерславль» приглашает детей и их родителей принять участие в интерактивной новогодней программе, полной чудес и приключений. На нарядно украшенных улицах города развернётся праздничное действо с танцами, песнями, играми, выступлениями цирковых артистов и знакомством со сказочными персонажами. Дети раскроют секрет магической реки, найдут кристаллы добра и приведут в движение чудодейственный механизм, который подарит городу настоящий праздник.</p>
+                    <p>Для гостей также будут работать тематические новогодние мастерские. Но главным сюрпризом для всех станет яркое впечатляющее светомузыкальное шоу на городской площади, сопровождаемое снегопадом.</p>
+                    <p>«Спешите делать добро!» — под таким девизом пройдут новогодние праздники в городе мастеров, ведь именно любовь, дружба, искренность и бережное отношение к семейным ценностям смогут сделать грядущий год по-настоящему хорошим.</p>
+                  </div>
+                  <div id="to_reg_2" class="e-remodal_title e-remodal_title-small">Регистрация</div>
+                  <div class="b-form_registartion"><img src="images/content/form-reg.jpg" alt=""></div>
+                </div>
+              </div>
+            </div>
+            <div class="b-item">
+              <div data-remodal-target="modal_3" class="b-item_img"><img src="images/content/small-img-5.jpg" alt="">
+                <div class="b-img_caption">Вск, 03 января — Вск, 10 января</div>
+              </div>
+              <div class="b-item_content">
+                <div data-remodal-target="modal_3" class="e-item_title">«Два Мороза» в Московском театре русской драмы</div>
+                <div class="e-item_address"><span class="icon-small-map-label-black"></span>Москва, Калужская пл., д. 1</div>
+                <div class="e-item_text">В основу представления легла история любви из пьесы Александра Николаевича Островского «Снегурочка». Спектакль поставлен заслуженными деятелями искусств России Михаилом Щепенко и Тамарой Басниной. Легкие к восприятию диалоги, красочные костюмы делают спектакль понятным маленьким зрителям.</div>
+                <div class="b-item_content-bottom"><a href="#" data-remodal-target="modal_3" class="e-btn">Купить билет</a>
+                  <div class="e-item_price">от 500 руб.</div>
+                  <div class="b-clear"></div>
+                </div>
+              </div>
+              <div data-remodal-id="modal_3" class="remodal">
+                <div data-remodal-action="close" class="remodal-close icon-close"></div>
+                <div class="remodal-content">
+                  <div class="e-remodal_title">«Два Мороза» в Московском театре русской драмы</div>
+                  <div class="e-remodal_address"><span class="icon-small-map-label-black"></span><span class="e-address_text">Москва, наб. Пресненская, д. 4, стр. 1</span></div>
+                  <div class="e-remodal_calendar"><span class="icon-calendar"></span><span class="e-calendar_text">14–30 декабря и 2–10 января 2016</span></div>
+                  <div class="b-pay">
+                    <div class="e-remodal_price">от 1700 до 2600 руб.</div>
+                    <div data-to-id-popup="to_reg_3" class="e-btn_green">Купить билет</div>
+                  </div>
+                  <div class="b-remodal-content_cols">
+                    <div class="b-col_left"><img src="images/content/img-popup.jpg" alt=""></div>
+                    <div class="b-col_right">
+                      <div class="b-map"><script charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=RtjiKBjksFtyIhRQtImbz7FMSj3Oi2DG&width=100%&height=300&lang=ru_RU&sourceType=constructor"></script><a href="https://maps.yandex.ru/?um=constructor:RtjiKBjksFtyIhRQtImbz7FMSj3Oi2DG" target="_blank" class="e-link-open-map">Открыть на Яндекс-картах</a></div>
+                      <div class="e-address"><b>Адрес:&nbsp;</b>Пресненская наб., д. 4, стр. 1</div>
+                      <div class="e-address"><b>Метро:&nbsp;</b>Выставочная</div>
+                    </div>
+                    <div class="b-clear"></div>
+                  </div>
+                  <div class="b-remodal-content_intro">Согласно легенде, город мастеров «Мастерславль» располагается возле магического источника, который в течение всего года наполняется радостью и добром, а в новогодние праздники начинает излучать удивительный свет. Но чудеса просто так не случаются, и открыть дорогу к волшебству помогут благородные дела, искренние пожелания и добрые поступки жителей города.</div>
+                  <div class="e-remodal_title e-remodal_title-small">Чудесное место для детей</div>
+                  <div class="b-remodal-content_desc">
+                    <p>Город мастеров «Мастерславль» приглашает детей и их родителей принять участие в интерактивной новогодней программе, полной чудес и приключений. На нарядно украшенных улицах города развернётся праздничное действо с танцами, песнями, играми, выступлениями цирковых артистов и знакомством со сказочными персонажами. Дети раскроют секрет магической реки, найдут кристаллы добра и приведут в движение чудодейственный механизм, который подарит городу настоящий праздник.</p>
+                    <p>Для гостей также будут работать тематические новогодние мастерские. Но главным сюрпризом для всех станет яркое впечатляющее светомузыкальное шоу на городской площади, сопровождаемое снегопадом.</p>
+                    <p>«Спешите делать добро!» — под таким девизом пройдут новогодние праздники в городе мастеров, ведь именно любовь, дружба, искренность и бережное отношение к семейным ценностям смогут сделать грядущий год по-настоящему хорошим.</p>
+                  </div>
+                  <div id="to_reg_3" class="e-remodal_title e-remodal_title-small">Регистрация</div>
+                  <div class="b-form_registartion"><img src="images/content/form-reg.jpg" alt=""></div>
+                </div>
+              </div>
+            </div>
+            <div class="b-item">
+              <div data-remodal-target="modal_4" class="b-item_img"><img src="images/content/small-img-6.jpg" alt="">
+                <div class="b-img_caption">Вск, 03 января — Вск, 10 января</div>
+              </div>
+              <div class="b-item_content">
+                <div data-remodal-target="modal_4" class="e-item_title">Спектакль «Однажды в детстве</div>
+                <div class="e-item_address"><span class="icon-small-map-label-black"></span>Петровский пер., д. 5/9</div>
+                <div class="e-item_text">Сюжеты постановок придумывали сами дети, они построены на детских разговорах, смешных словечках, весёлых играх и невероятных фантазиях. Детское воображение способно превратить обыкновенную квартиру в неизведанный мир. Здесь возможно стать супергероем, каждая занавеска таит за собой чудовище, в шкафах спрятаны сокровища, не говоря уже о том, что под живёт Марлинбонц...</div>
+                <div class="b-item_content-bottom"><a href="#" data-remodal-target="modal_4" class="e-btn">Купить билет</a>
+                  <div class="e-item_price">от 1100 руб.</div>
+                  <div class="b-clear"></div>
+                </div>
+              </div>
+              <div data-remodal-id="modal_4" class="remodal">
+                <div data-remodal-action="close" class="remodal-close icon-close"></div>
+                <div class="remodal-content">
+                  <div class="e-remodal_title">Спектакль «Однажды в детстве</div>
+                  <div class="e-remodal_address"><span class="icon-small-map-label-black"></span><span class="e-address_text">Москва, наб. Пресненская, д. 4, стр. 1</span></div>
+                  <div class="e-remodal_calendar"><span class="icon-calendar"></span><span class="e-calendar_text">14–30 декабря и 2–10 января 2016</span></div>
+                  <div class="b-pay">
+                    <div class="e-remodal_price">от 1700 до 2600 руб.</div>
+                    <div data-to-id-popup="to_reg_4" class="e-btn_green">Купить билет</div>
+                  </div>
+                  <div class="b-remodal-content_cols">
+                    <div class="b-col_left"><img src="images/content/img-popup.jpg" alt=""></div>
+                    <div class="b-col_right">
+                      <div class="b-map"><script charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=RtjiKBjksFtyIhRQtImbz7FMSj3Oi2DG&width=100%&height=300&lang=ru_RU&sourceType=constructor"></script><a href="https://maps.yandex.ru/?um=constructor:RtjiKBjksFtyIhRQtImbz7FMSj3Oi2DG" target="_blank" class="e-link-open-map">Открыть на Яндекс-картах</a></div>
+                      <div class="e-address"><b>Адрес:&nbsp;</b>Пресненская наб., д. 4, стр. 1</div>
+                      <div class="e-address"><b>Метро:&nbsp;</b>Выставочная</div>
+                    </div>
+                    <div class="b-clear"></div>
+                  </div>
+                  <div class="b-remodal-content_intro">Согласно легенде, город мастеров «Мастерславль» располагается возле магического источника, который в течение всего года наполняется радостью и добром, а в новогодние праздники начинает излучать удивительный свет. Но чудеса просто так не случаются, и открыть дорогу к волшебству помогут благородные дела, искренние пожелания и добрые поступки жителей города.</div>
+                  <div class="e-remodal_title e-remodal_title-small">Чудесное место для детей</div>
+                  <div class="b-remodal-content_desc">
+                    <p>Город мастеров «Мастерславль» приглашает детей и их родителей принять участие в интерактивной новогодней программе, полной чудес и приключений. На нарядно украшенных улицах города развернётся праздничное действо с танцами, песнями, играми, выступлениями цирковых артистов и знакомством со сказочными персонажами. Дети раскроют секрет магической реки, найдут кристаллы добра и приведут в движение чудодейственный механизм, который подарит городу настоящий праздник.</p>
+                    <p>Для гостей также будут работать тематические новогодние мастерские. Но главным сюрпризом для всех станет яркое впечатляющее светомузыкальное шоу на городской площади, сопровождаемое снегопадом.</p>
+                    <p>«Спешите делать добро!» — под таким девизом пройдут новогодние праздники в городе мастеров, ведь именно любовь, дружба, искренность и бережное отношение к семейным ценностям смогут сделать грядущий год по-настоящему хорошим.</p>
+                  </div>
+                  <div id="to_reg_4" class="e-remodal_title e-remodal_title-small">Регистрация</div>
+                  <div class="b-form_registartion"><img src="images/content/form-reg.jpg" alt=""></div>
+                </div>
+              </div>
+            </div>
+            <div class="b-item">
+              <div data-remodal-target="modal_5" class="b-item_img"><img src="images/content/small-img-7.jpg" alt="">
+                <div class="b-img_caption">Вск, 03 января — Вск, 10 января</div>
+              </div>
+              <div class="b-item_content">
+                <div data-remodal-target="modal_5" class="e-item_title">Новогодняя джазовая сюита</div>
+                <div class="e-item_address"><span class="icon-small-map-label-black"></span>Москва, Шелапутинский переулок, дом 6</div>
+                <div class="e-item_text">Исполнительница является заслуженной артисткой Хакасии, а в 2010 году была удостоена высшей премии Международного вокального форума, проводившегося в Италии. В репертуаре певицы — как арии из известных опер, так и джазовые композиции, а кроме того, Монисова прекрасно исполняет романсы. Кстати, все перечисленные направления найдут отражение в новогодней программе артистки.</div>
+                <div class="b-item_content-bottom"><a href="#" data-remodal-target="modal_5" class="e-btn">Регистрация</a>
+                  <div class="e-item_price">Бесплатно</div>
+                  <div class="b-clear"></div>
+                </div>
+              </div>
+              <div data-remodal-id="modal_5" class="remodal">
+                <div data-remodal-action="close" class="remodal-close icon-close"></div>
+                <div class="remodal-content">
+                  <div class="e-remodal_title">Новогодняя джазовая сюита</div>
+                  <div class="e-remodal_address"><span class="icon-small-map-label-black"></span><span class="e-address_text">Москва, наб. Пресненская, д. 4, стр. 1</span></div>
+                  <div class="e-remodal_calendar"><span class="icon-calendar"></span><span class="e-calendar_text">14–30 декабря и 2–10 января 2016</span></div>
+                  <div class="b-pay">
+                    <div class="e-remodal_price">от 1700 до 2600 руб.</div>
+                    <div data-to-id-popup="to_reg_5" class="e-btn_green">Купить билет</div>
+                  </div>
+                  <div class="b-remodal-content_cols">
+                    <div class="b-col_left"><img src="images/content/img-popup.jpg" alt=""></div>
+                    <div class="b-col_right">
+                      <div class="b-map"><script charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=RtjiKBjksFtyIhRQtImbz7FMSj3Oi2DG&width=100%&height=300&lang=ru_RU&sourceType=constructor"></script><a href="https://maps.yandex.ru/?um=constructor:RtjiKBjksFtyIhRQtImbz7FMSj3Oi2DG" target="_blank" class="e-link-open-map">Открыть на Яндекс-картах</a></div>
+                      <div class="e-address"><b>Адрес:&nbsp;</b>Пресненская наб., д. 4, стр. 1</div>
+                      <div class="e-address"><b>Метро:&nbsp;</b>Выставочная</div>
+                    </div>
+                    <div class="b-clear"></div>
+                  </div>
+                  <div class="b-remodal-content_intro">Согласно легенде, город мастеров «Мастерславль» располагается возле магического источника, который в течение всего года наполняется радостью и добром, а в новогодние праздники начинает излучать удивительный свет. Но чудеса просто так не случаются, и открыть дорогу к волшебству помогут благородные дела, искренние пожелания и добрые поступки жителей города.</div>
+                  <div class="e-remodal_title e-remodal_title-small">Чудесное место для детей</div>
+                  <div class="b-remodal-content_desc">
+                    <p>Город мастеров «Мастерславль» приглашает детей и их родителей принять участие в интерактивной новогодней программе, полной чудес и приключений. На нарядно украшенных улицах города развернётся праздничное действо с танцами, песнями, играми, выступлениями цирковых артистов и знакомством со сказочными персонажами. Дети раскроют секрет магической реки, найдут кристаллы добра и приведут в движение чудодейственный механизм, который подарит городу настоящий праздник.</p>
+                    <p>Для гостей также будут работать тематические новогодние мастерские. Но главным сюрпризом для всех станет яркое впечатляющее светомузыкальное шоу на городской площади, сопровождаемое снегопадом.</p>
+                    <p>«Спешите делать добро!» — под таким девизом пройдут новогодние праздники в городе мастеров, ведь именно любовь, дружба, искренность и бережное отношение к семейным ценностям смогут сделать грядущий год по-настоящему хорошим.</p>
+                  </div>
+                  <div id="to_reg_5" class="e-remodal_title e-remodal_title-small">Регистрация</div>
+                  <div class="b-form_registartion"><img src="images/content/form-reg.jpg" alt=""></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="b-clear"></div>
+          <div class="e-load-more">Загрузить еще</div>
+        </div>
+        <div class="b-right-col">
+          <div class="e-title">Не пропустите</div>
+          <div class="b-other-items-list">
+            <div class="b-other-item"><img src="images/content/small-img-1.jpg" alt="" data-remodal-target="modal_6">
+              <div class="b-other-item_content">
+                <div class="e-other-item_address">Санкт-петербург, 19 ноября 2015 (четверг), 19:00</div>
+                <div data-remodal-target="modal_6" class="e-other-item_title">Как продавать больше? 100+ приемов и техник убеждения клиента в продажах</div>
+                <div class="b-other-item_bottom"><a href="#" data-remodal-target="modal_6" class="e-btn">Регистрация</a>
+                  <div class="e-item_price">Бесплатно</div>
+                  <div class="b-clear"></div>
+                </div>
+              </div>
+              <div data-remodal-id="modal_6" class="remodal">
+                <div data-remodal-action="close" class="remodal-close icon-close"></div>
+                <div class="remodal-content">
+                  <div class="e-remodal_title">Как продавать больше? 100+ приемов и техник убеждения клиента в продажах</div>
+                  <div class="e-remodal_address"><span class="icon-small-map-label-black"></span><span class="e-address_text">Москва, наб. Пресненская, д. 4, стр. 1</span></div>
+                  <div class="e-remodal_calendar"><span class="icon-calendar"></span><span class="e-calendar_text">14–30 декабря и 2–10 января 2016</span></div>
+                  <div class="b-pay">
+                    <div class="e-remodal_price">от 1700 до 2600 руб.</div>
+                    <div data-to-id-popup="to_reg_6" class="e-btn_green">Купить билет</div>
+                  </div>
+                  <div class="b-remodal-content_cols">
+                    <div class="b-col_left"><img src="images/content/img-popup.jpg" alt=""></div>
+                    <div class="b-col_right">
+                      <div class="b-map"><script charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=RtjiKBjksFtyIhRQtImbz7FMSj3Oi2DG&width=100%&height=300&lang=ru_RU&sourceType=constructor"></script><a href="https://maps.yandex.ru/?um=constructor:RtjiKBjksFtyIhRQtImbz7FMSj3Oi2DG" target="_blank" class="e-link-open-map">Открыть на Яндекс-картах</a></div>
+                      <div class="e-address"><b>Адрес:&nbsp;</b>Пресненская наб., д. 4, стр. 1</div>
+                      <div class="e-address"><b>Метро:&nbsp;</b>Выставочная</div>
+                    </div>
+                    <div class="b-clear"></div>
+                  </div>
+                  <div class="b-remodal-content_intro">Согласно легенде, город мастеров «Мастерславль» располагается возле магического источника, который в течение всего года наполняется радостью и добром, а в новогодние праздники начинает излучать удивительный свет. Но чудеса просто так не случаются, и открыть дорогу к волшебству помогут благородные дела, искренние пожелания и добрые поступки жителей города.</div>
+                  <div class="e-remodal_title e-remodal_title-small">Чудесное место для детей</div>
+                  <div class="b-remodal-content_desc">
+                    <p>Город мастеров «Мастерславль» приглашает детей и их родителей принять участие в интерактивной новогодней программе, полной чудес и приключений. На нарядно украшенных улицах города развернётся праздничное действо с танцами, песнями, играми, выступлениями цирковых артистов и знакомством со сказочными персонажами. Дети раскроют секрет магической реки, найдут кристаллы добра и приведут в движение чудодейственный механизм, который подарит городу настоящий праздник.</p>
+                    <p>Для гостей также будут работать тематические новогодние мастерские. Но главным сюрпризом для всех станет яркое впечатляющее светомузыкальное шоу на городской площади, сопровождаемое снегопадом.</p>
+                    <p>«Спешите делать добро!» — под таким девизом пройдут новогодние праздники в городе мастеров, ведь именно любовь, дружба, искренность и бережное отношение к семейным ценностям смогут сделать грядущий год по-настоящему хорошим.</p>
+                  </div>
+                  <div id="to_reg_6" class="e-remodal_title e-remodal_title-small">Регистрация</div>
+                  <div class="b-form_registartion"><img src="images/content/form-reg.jpg" alt=""></div>
+                </div>
+              </div>
+            </div>
+            <div class="b-other-item"><img src="images/content/small-img-2.jpg" alt="">
+              <div class="b-other-item_content">
+                <div class="e-other-item_address">Санкт-петербург, 19 ноября 2015 (четверг), 19:00</div>
+                <div class="e-other-item_title">Большой инвестиционный форум 2015 в Санкт-Петербурге</div>
+              </div>
+            </div>
+            <div class="b-other-item"><img src="images/content/small-img-3.jpg" alt="">
+              <div class="b-other-item_content">
+                <div class="e-other-item_address">Москва, 19 ноября 2015 (четверг), 19:00</div>
+                <div class="e-other-item_title">Raiffeisen Involve: топ-менеджера Райффайзенбанка о стратегии, бизнес-модели и IT</div>
+              </div>
+            </div>
+            <div class="b-other-item"><img src="images/content/small-img-1.jpg" alt="">
+              <div class="b-other-item_content">
+                <div class="e-other-item_address">Санкт-петербург, 19 ноября 2015 (четверг), 19:00</div>
+                <div class="e-other-item_title">Как продавать больше? 100+ приемов и техник убеждения клиента в продажах</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="b-clear"></div>
+      </main>
+      <footer>
+        <div class="b-copyright"><a href="#" class="icon-small-logo"></a>
+          <div class="b-copyright_text">
+            &copy;&nbsp;ООО&nbsp;&laquo;ТаймПэд&nbsp;Лтд&raquo; 2008 — 2015<br>
+            Используя данный вебсайт,<br>вы подтверждаете согласие с<br>
+            <a href="#">правилами использования</a>
+          </div>
+        </div>
+        <nav class="b-footer-menu">
+          <div class="b-footer-menu_item">
+            <div class="e-footer-menu_title">TimePad</div>
+            <ul>
+              <li><a href="#">Возможности</a></li>
+              <li><a href="#">Цены</a></li>
+              <li><a href="#">Реклама на сайте</a></li>
+              <li><a href="#">Связаться с нами</a></li>
+            </ul>
+          </div>
+          <div class="b-footer-menu_item">
+            <div class="e-footer-menu_title">О компании</div>
+            <ul>
+              <li><a href="#">О проекте</a></li>
+              <li><a href="#">Вакансии</a></li>
+              <li><a href="#">Блог</a></li>
+            </ul>
+          </div>
+          <div class="b-footer-menu_item">
+            <div class="e-footer-menu_title">Помощь</div>
+            <ul>
+              <li><a href="#">Правила</a></li>
+              <li><a href="#">Справка</a></li>
+              <li><a href="#">Разработчикам</a></li>
+              <li><a href="#">Задать вопрос</a></li>
+            </ul>
+          </div>
+          <div class="b-footer-menu_item">
+            <div class="e-footer-menu_title">Мы в социальных сетях</div>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Vkontakte</a></li>
+              <li><a href="#">Twitter</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="b-clear"></div>
+      </footer>
+    </div>
+    <script>var ms=document.createElement("link");ms.rel="stylesheet";ms.href="css/assets.min.css";document.getElementsByTagName("head")[0].appendChild(ms);</script>
+    <script>var scr = {"scripts":[{"src" : "js/libs/respond.matchmedia.addListener.min.js", "async" : false},{"src" : "js/assets.min.js", "async" : false}]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);</script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/* ------------------------Scroll Style (Start)------------------------ */
+
+.jspContainer {
+  overflow: hidden;
+  position: relative;
+}
+
+.jspPane {
+  position: absolute;
+}
+
+.jspVerticalBar {
+  position: absolute;
+  top: 0;
+  right: 9px;
+  width: 8px;
+  height: 100%;
+}
+
+.jspVerticalBar .jspCap {
+  height: 12px;
+}
+
+.jspCap {
+  display: block;
+}
+
+.jspTrack {
+  background: #e8e8e8;
+  position: relative;
+  -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+      -ms-border-radius: 8px;
+          border-radius: 8px;
+}
+
+.jspDrag {
+  background: #26282b;
+  position: relative;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+      -ms-border-radius: 8px;
+          border-radius: 8px;
+}
+
+.jspCorner {
+  background: #eeeef4;
+  float: left;
+  height: 100%;
+}
+
+/* ------------------------Scroll Style (End)------------------------ */

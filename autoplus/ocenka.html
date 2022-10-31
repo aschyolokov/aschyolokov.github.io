@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Autoplus</title>
+    <meta name="description" content="Autoplus">
+    <meta name="robots" content="index,follow,noodp">
+    <meta name="googlebot" content="index,follow">
+    <meta name="google" content="nositelinkssearchbox">
+    <meta name="google" content="notranslate">
+    <meta name="referrer" content="never">
+    <style>body{opacity:0;}</style>
+    <noscript>
+      <style>body{opacity:1;}</style>
+      <link rel="stylesheet" href="css/assets.min.css?v=78781">
+    </noscript>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="date=no">
+    <meta name="format-detection" content="address=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#5c4b65">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="images/favicons/manifest.json">
+    <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#5c4b65">
+    <meta name="msapplication-TileColor" content="#5c4b65">
+    <meta name="msapplication-TileImage" content="images/favicons/mstile-144x144.png">
+    <meta name="theme-color" content="#5c4b65">
+    <meta property="og:title" content="Autoplus">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="Autoplus">
+    <meta name="twitter:title" content="Autoplus">
+    <meta name="twitter:description" content="Autoplus">
+    <meta name="twitter:image" content="">
+    <meta itemprop="name" content="Autoplus">
+    <meta itemprop="description" content="Autoplus">
+    <meta itemprop="image" content="">
+    <script src="//maps.googleapis.com/maps/api/js"></script>
+    <script src="js/libs.min.js?v=467093"></script>
+  </head>
+  <body>
+    <div class="b-wrapper">
+      <header class="b-header b-header_default">
+        <div class="b-header_default-wrapper">
+          <button type="button" id="menuToggler" class="e-menu-toggle"><i class="ic-menu"></i></button>
+          <div class="b-header_default-logo"><a href="/" class="e-logo"><img src="images/core/logo.png" alt="Autoplus"></a></div>
+          <nav id="mainMenu" class="b-header_menu">
+            <ul class="b-header_menu-items">
+              <li class="b-header_menu-item"><a href="#" class="b-header_menu-link">Марка автомобиля</a>
+                <div class="b-header_menu-inner">
+                  <div class="inner-search-list">
+                    <div class="item-search">
+                      <input type="text" placeholder="Поиск ..." name="search">
+                    </div>
+                    <div class="b-form">
+                      <div class="b-form_field">
+                        <div class="b-form_radio">
+                          <input id="selectLabelCar1" type="radio" name="selectLabelCar" value="Acura" checked>
+                          <label for="selectLabelCar1">Acura</label>
+                        </div>
+                      </div>
+                      <div class="b-form_field">
+                        <div class="b-form_radio">
+                          <input id="selectLabelCar2" type="radio" name="selectLabelCar" value="Alfa Romeo" checked>
+                          <label for="selectLabelCar2">Alfa Romeo</label>
+                        </div>
+                      </div>
+                      <div class="b-form_field">
+                        <div class="b-form_radio">
+                          <input id="selectLabelCar3" type="radio" name="selectLabelCar" value="Audi" checked>
+                          <label for="selectLabelCar3">Audi</label>
+                        </div>
+                      </div>
+                      <div class="b-form_field">
+                        <div class="b-form_radio">
+                          <input id="selectLabelCar4" type="radio" name="selectLabelCar" value="Bentley" checked>
+                          <label for="selectLabelCar4">Bentley</label>
+                        </div>
+                      </div>
+                      <div class="b-form_field">
+                        <div class="b-form_radio">
+                          <input id="selectLabelCar5" type="radio" name="selectLabelCar" value="BMW" checked>
+                          <label for="selectLabelCar5">BMW</label>
+                        </div>
+                      </div>
+                      <div class="b-form_field">
+                        <div class="b-form_radio">
+                          <input id="selectLabelCar6" type="radio" name="selectLabelCar" value="Brilliance" checked>
+                          <label for="selectLabelCar6">Brilliance</label>
+                        </div>
+                      </div>
+                      <div class="b-form_field">
+                        <div class="b-form_radio">
+                          <input id="selectLabelCar7" type="radio" name="selectLabelCar" value="BYD" checked>
+                          <label for="selectLabelCar7">BYD</label>
+                        </div>
+                      </div>
+                      <div class="b-form_field">
+                        <div class="b-form_radio">
+                          <input id="selectLabelCar8" type="radio" name="selectLabelCar" value="Citroen" checked>
+                          <label for="selectLabelCar8">Citroen</label>
+                        </div>
+                      </div>
+                      <div class="b-form_field">
+                        <div class="b-form_radio">
+                          <input id="selectLabelCar9" type="radio" name="selectLabelCar" value="Acura" checked>
+                          <label for="selectLabelCar9">Acura</label>
+                        </div>
+                      </div>
+                      <div class="b-form_field">
+                        <div class="b-form_radio">
+                          <input id="selectLabelCar10" type="radio" name="selectLabelCar" value="Alfa Romeo" checked>
+                          <label for="selectLabelCar10">Alfa Romeo</label>
+                        </div>
+                      </div>
+                      <div class="b-form_field">
+                        <div class="b-form_radio">
+                          <input id="selectLabelCar11" type="radio" name="selectLabelCar" value="Audi" checked>
+                          <label for="selectLabelCar11">Audi</label>
+                        </div>
+                      </div>
+                      <div class="b-form_field">
+                        <div class="b-form_radio">
+                          <input id="selectLabelCar12" type="radio" name="selectLabelCar" value="Bentley" checked>
+                          <label for="selectLabelCar12">Bentley</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="inner-btns"><a href="#" class="e-btn e-btn_white e-btn_small">Применить</a><a href="#" class="btn-cancel">Отмена</a></div>
+                </div>
+              </li>
+              <li class="b-header_menu-item"><a href="#" class="b-header_menu-link">Модель</a>
+                <div class="b-header_menu-inner">
+                  <div class="inner-search-list">
+                    <div class="item-search">
+                      <input type="text" placeholder="Поиск ..." name="search">
+                    </div>
+                    <div class="b-form">
+                      <div class="b-form_field">
+                        <div class="b-form_checkbox">
+                          <input id="modelCars1" type="checkbox" name="modelCars[]" value="Astra" checked>
+                          <label for="modelCars1">Astra</label>
+                        </div>
+                      </div>
+                      <div class="b-form_field">
+                        <div class="b-form_checkbox">
+                          <input id="modelCars2" type="checkbox" name="modelCars[]" value="Solaris">
+                          <label for="modelCars2">Solaris</label>
+                        </div>
+                      </div>
+                      <div class="b-form_field">
+                        <div class="b-form_checkbox">
+                          <input id="modelCars3" type="checkbox" name="modelCars[]" value="RX-7">
+                          <label for="modelCars3">RX-7</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="inner-btns"><a href="#" class="e-btn e-btn_white e-btn_small">Применить</a><a href="#" class="btn-cancel">Отмена</a></div>
+                </div>
+              </li>
+              <li class="b-header_menu-item"><a href="#" class="b-header_menu-link">В Москве</a>
+                <div class="b-header_menu-inner">
+                  <div class="inner-search-list">
+                    <div class="item-search">
+                      <input type="text" placeholder="Поиск ..." name="search">
+                    </div>
+                    <div class="b-form">
+                      <div class="b-form_field">
+                        <div class="b-form_checkbox">
+                          <input id="selectMetro1" type="checkbox" name="selectMetro[]" value="Аэропорт" checked>
+                          <label for="selectMetro1">Аэропорт</label>
+                        </div>
+                      </div>
+                      <div class="b-form_field">
+                        <div class="b-form_checkbox">
+                          <input id="selectMetro2" type="checkbox" name="selectMetro[]" value="Театральная">
+                          <label for="selectMetro2">Театральная</label>
+                        </div>
+                      </div>
+                      <div class="b-form_field">
+                        <div class="b-form_checkbox">
+                          <input id="selectMetro3" type="checkbox" name="selectMetro[]" value="Курская">
+                          <label for="selectMetro3">Курская</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="inner-btns"><a href="#" class="e-btn e-btn_white e-btn_small">Применить</a><a href="#" class="btn-cancel">Отмена</a></div>
+                </div>
+              </li>
+              <li class="b-header_menu-item"><a href="#" class="b-header_menu-link">Вид ремонта</a>
+                <div class="b-header_menu-inner">
+                  <div class="inner-search-list">
+                    <div class="item-search">
+                      <input type="text" placeholder="Поиск ..." name="search">
+                    </div>
+                    <div class="b-form">
+                      <div class="b-form_field">
+                        <div class="b-form_checkbox">
+                          <input id="selectTypeRepair1" type="checkbox" name="typeRepair[]" value="антикор" checked>
+                          <label for="selectTypeRepair1">антикор</label>
+                        </div>
+                      </div>
+                      <div class="b-form_field">
+                        <div class="b-form_checkbox">
+                          <input id="selectTypeRepair2" type="checkbox" name="typeRepair[]" value="аэрография" checked>
+                          <label for="selectTypeRepair2">аэрография</label>
+                        </div>
+                      </div>
+                      <div class="b-form_field">
+                        <div class="b-form_checkbox">
+                          <input id="selectTypeRepair3" type="checkbox" name="typeRepair[]" value="замена масла" checked>
+                          <label for="selectTypeRepair3">замена масла</label>
+                        </div>
+                      </div>
+                      <div class="b-form_field">
+                        <div class="b-form_checkbox">
+                          <input id="selectTypeRepair4" type="checkbox" name="typeRepair[]" value="кузовной ремонт" checked>
+                          <label for="selectTypeRepair4">кузовной ремонт</label>
+                        </div>
+                      </div>
+                      <div class="b-form_field">
+                        <div class="b-form_checkbox">
+                          <input id="selectTypeRepair5" type="checkbox" name="typeRepair[]" value="заправка кондиционера" checked>
+                          <label for="selectTypeRepair5">заправка кондиционера</label>
+                        </div>
+                      </div>
+                      <div class="b-form_field">
+                        <div class="b-form_checkbox">
+                          <input id="selectTypeRepair6" type="checkbox" name="typeRepair[]" value="покраска кузова" checked>
+                          <label for="selectTypeRepair6">покраска кузова</label>
+                        </div>
+                      </div>
+                      <div class="b-form_field">
+                        <div class="b-form_checkbox">
+                          <input id="selectTypeRepair7" type="checkbox" name="typeRepair[]" value="полировка кузова">
+                          <label for="selectTypeRepair7">полировка кузова</label>
+                        </div>
+                      </div>
+                      <div class="b-form_field">
+                        <div class="b-form_checkbox">
+                          <input id="selectTypeRepair8" type="checkbox" name="typeRepair[]" value="ремонт автокондиционеров">
+                          <label for="selectTypeRepair8">ремонт автокондиционеров</label>
+                        </div>
+                      </div>
+                      <div class="b-form_field">
+                        <div class="b-form_checkbox">
+                          <input id="selectTypeRepair9" type="checkbox" name="typeRepair[]" value="замена масла">
+                          <label for="selectTypeRepair9">замена масла</label>
+                        </div>
+                      </div>
+                      <div class="b-form_field">
+                        <div class="b-form_checkbox">
+                          <input id="selectTypeRepair10" type="checkbox" name="typeRepair[]" value="аэрография">
+                          <label for="selectTypeRepair10">аэрография</label>
+                        </div>
+                      </div>
+                      <div class="b-form_field">
+                        <div class="b-form_checkbox">
+                          <input id="selectTypeRepair11" type="checkbox" name="typeRepair[]" value="заправка кондиционера">
+                          <label for="selectTypeRepair11">заправка кондиционера</label>
+                        </div>
+                      </div>
+                      <div class="b-form_field">
+                        <div class="b-form_checkbox">
+                          <input id="selectTypeRepair12" type="checkbox" name="typeRepair[]" value="кузовной ремонт">
+                          <label for="selectTypeRepair12">кузовной ремонт</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="inner-btns"><a href="#" class="e-btn e-btn_white e-btn_small">Применить</a><a href="#" class="btn-cancel">Отмена</a></div>
+                </div>
+              </li>
+            </ul>
+          </nav>
+          <div class="b-header_default-search-enter">
+            <div class="item-search">
+              <input type="text" placeholder="Поиск по сайту ..." name="search">
+              <button type="button"><i class="ic-search"></i></button>
+            </div><a href="#" class="e-btn-enter">Войти</a>
+          </div>
+        </div>
+      </header>
+      <main class="b-main b-main_inner">
+        <div class="b-page_ocenka">
+          <div class="b-title b-title_to-left b-block_gray">
+            <div class="b-inner">
+              <div class="b-title_name">Оценка ремонта по фото</div>
+            </div>
+          </div>
+          <div class="b-inner">
+            <div class="b-page_ocenka-items">
+              <div class="b-page_ocenka-item">
+                <div class="item-icon"><i class="ic-camera"></i></div>
+                <div class="item-title">Сфотографируй поломку</div>
+              </div>
+              <div class="b-page_ocenka-item">
+                <div class="item-icon"><i class="ic-photo-doc"></i></div>
+                <div class="item-title">Загрузи фото и заполни форму</div>
+              </div>
+              <div class="b-page_ocenka-item">
+                <div class="item-icon"><i class="ic-phone-mail"></i></div>
+                <div class="item-title">Расчет у вас на почте или по телефону</div>
+              </div>
+            </div>
+          </div>
+          <form id="ocenkaForm" action="/" class="b-form">
+            <div class="b-add-photo b-block_gray">
+              <div class="b-inner">
+                <div class="b-add-photo_items">
+                  <label for="loadPhoto1" class="b-add-photo_btn">
+                    <input id="loadPhoto1" type="file" name="ocenkaPhoto1" data-type-file="photo"><span class="e-btn e-btn_red">Загрузи фото</span>
+                  </label>
+                </div>
+                <button id="addMorePhoto" type="button" class="b-add-photo_more"><span class="item-icon"><i class="ic-plus"></i></span><span class="item-link">Ещё одно фото</span></button>
+              </div>
+            </div>
+            <div class="b-inner">
+              <div class="b-form_border">
+                <div class="b-title">
+                  <div class="b-title_name">Заполни форму</div>
+                </div>
+                <div class="b-form_field">
+                  <label for="ocenkaName" class="b-form_label">Имя:</label>
+                  <input id="ocenkaName" type="text" name="ocenkaName" required class="b-form_input">
+                </div>
+                <div class="b-form_field">
+                  <label for="ocenkaPhone" class="b-form_label">Контактный телефон:</label>
+                  <input id="ocenkaPhone" type="tel" name="ocenkaPhone" pattern="d*" required class="b-form_input">
+                </div>
+                <div class="b-form_field">
+                  <label for="ocenkaEmail" class="b-form_label">Введите e-mail:</label>
+                  <input id="ocenkaEmail" type="email" name="ocenkaEmail" required class="b-form_input">
+                </div>
+                <button type="submit" class="e-btn e-btn_red">Все услуги</button>
+              </div>
+            </div>
+          </form>
+          <div class="b-inner">
+            <div class="b-breadcrumbs">
+              <ul class="b-breadcrumbs_items">
+                <li class="b-breadcrumbs_item"><a href="#" class="b-breadcrumbs_link">Главная</a></li>
+                <li class="b-breadcrumbs_item">Оценка ремонта по фото</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </main>
+      <div class="b-contacts-block b-block_gray">
+        <div class="b-inner">
+          <div class="b-contacts-block_items">
+            <div class="b-contacts-block_item"><i class="ic-phone"></i>
+              <div class="item-info"><a href="tel:+74954539800" class="item-info_link">+7 (495) 453-98-00</a>
+                <div class="item-info_text">с нами можно обсудить</div>
+              </div>
+            </div>
+            <div class="b-contacts-block_item"><i class="ic-location"></i>
+              <div class="item-info"><a href="#" class="item-info_link">Показать на карте ближайший сервис</a>
+                <div class="item-info_text">к нам можно приехать</div>
+              </div>
+            </div>
+            <div class="b-contacts-block_item"><i class="ic-mail"></i>
+              <div class="item-info"><a href="mailto:support@autoplus.ru" class="item-info_link">support@autoplus.ru</a>
+                <div class="item-info_text">нам можно написать</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="b-footer">
+        <div class="b-inner">
+          <div class="b-footer_info"><a href="/" class="e-logo"><img src="images/core/logo-small.png" alt="Autoplus"></a>
+            <div class="b-copyright">Автосервисы в Москве и Подмосковье, 2015-2016</div>
+            <div class="b-phones">8 (800) 532-00-92<br>8 (800) 532-00-92</div>
+          </div>
+          <div class="b-footer_nav">
+            <nav class="b-footer_menu">
+              <div class="b-footer_menu-title">Профиль</div>
+              <ul class="b-footer_menu-items">
+                <li class="b-footer_menu-item"><a href="#">Войти</a></li>
+                <li class="b-footer_menu-item"><a href="#">Зарегистрироваться</a></li>
+                <li class="b-footer_menu-item"><a href="#">Восстановить доступ</a></li>
+              </ul>
+            </nav>
+            <nav class="b-footer_menu">
+              <div class="b-footer_menu-title">Найти автосервис</div>
+              <ul class="b-footer_menu-items">
+                <li class="b-footer_menu-item"><a href="#">Расширенный поиск</a></li>
+                <li class="b-footer_menu-item"><a href="#">Все автосервисы</a></li>
+              </ul>
+            </nav>
+            <nav class="b-footer_menu">
+              <div class="b-footer_menu-title">О сайте</div>
+              <ul class="b-footer_menu-items">
+                <li class="b-footer_menu-item"><a href="#">Помощь</a></li>
+                <li class="b-footer_menu-item"><a href="#">Правила</a></li>
+                <li class="b-footer_menu-item"><a href="#">Команда</a></li>
+              </ul>
+            </nav>
+            <div class="b-social">
+              <div class="e-title">Мы в соцсетях:</div>
+              <div class="b-social_items"><a href="#" class="b-social_item"><i class="ic-vk"></i></a><a href="#" class="b-social_item"><i class="ic-facebook"></i></a><a href="#" class="b-social_item"><i class="ic-google-plus"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script>
+      var load=function(){function n(n){return function(e){return new Promise(function(r,c){var t=document.createElement(n),i="body";switch(t.onload=function(){r(e)},t.onerror=function(){c(e)},n){case"img":t.src=e;break;case"script":t.async=!0,t.src=e;break;case"link":t.rel="stylesheet",t.href=e,i="head"}document[i].appendChild(t)})}}return{css:n("link"),js:n("script"),img:n("img")}}();
+      Promise.all([load.js("js/assets.min.js?v=267176"),load.css("css/assets.min.css?v=78781")]).then(function(){})["catch"](function(){});
+    </script>
+  </body>
+</html>

@@ -1,0 +1,306 @@
+@charset "UTF-8";
+
+/* ------------------------Icons (Start)------------------------ */
+
+.icon-logo, .icon-paypal, .icon-webmoney, .icon-label-expert-day, .icon-qiwi,
+.icon-mastercard, .icon-sofort, .icon-stars, .icon-yandex-money, .icon-visa,
+.icon-expert-leaders-hover, .icon-expert-leaders, .icon-faq-hover, .icon-faq, .icon-gadalki-hover,
+.icon-gadalki, .icon-astrologis-hover, .icon-astrologis, .icon-more-experts-hover, .icon-more-experts,
+.icon-yasnovid-hover, .icon-yasnovid, .icon-questions-leaders-hover, .icon-questions-leaders, .icon-chat-hover,
+.icon-chat, .icon-ekstrasenses-hover, .icon-ekstrasenses, .icon-taro-hover, .icon-taro,
+.icon-categories-hover, .icon-categories, .icon-lock, .icon-psyhologis-hover, .icon-psyhologis,
+.icon-credits-hover, .icon-credits, .icon-info-user-hover, .icon-info-user, .icon-diagonal-line,
+.icon-microfon-gray-off, .icon-reviews-hover, .icon-reviews, .icon-sound-gray-off, .icon-video-gray-off,
+.icon-submit-review-hover, .icon-submit-review, .icon-timer-block, .icon-photo, .icon-video-gray,
+.icon-video, .icon-message-empty-hover, .icon-message-empty, .icon-star-empty-hover, .icon-star-empty,
+.icon-star-hover, .icon-star, .icon-fullscreen, .icon-message-hover, .icon-message,
+.icon-user-hover, .icon-user, .icon-fullscreen-off, .icon-close-hover, .icon-close-white,
+.icon-close, .icon-sound-gray, .icon-sound-on, .icon-answer, .icon-sound-off,
+.icon-staple, .icon-star-empty-blue, .icon-star-hover-blue, .icon-microfon-gray, .icon-microfon,
+.icon-search-hover, .icon-search, .icon-user-empty-blue, .icon-user-hover-blue, .icon-pause-gray,
+.icon-star-empty-rating, .icon-close-white-small, .icon-gift, .icon-pen-hover, .icon-pen,
+.icon-busy, .icon-calendar, .icon-no-on-site, .icon-online, .icon-play-gray,
+.icon-play-hover, .icon-play, .icon-arrow-left-hover, .icon-arrow-left, .icon-arrow-right-hover,
+.icon-arrow-right, .icon-star-small-empty-hover, .icon-star-small-empty, .icon-star-small-hover, .icon-star-small,
+.icon-arrow-down-hover, .icon-arrow-down-white, .icon-arrow-down, .icon-arrow-right-black-small, .icon-arrow-right-small-hover,
+.icon-arrow-right-small, .icon-arrow-right-violet-small {
+  display: inline-block;
+  background-image: url('../../images/sprite.png');
+  background-repeat: no-repeat
+}
+
+.icon-logo { background-position: -0px -0px; width: 159px; height: 49px; }
+
+.icon-paypal { background-position: -0px -49px; width: 98px; height: 25px; }
+
+.icon-webmoney { background-position: -0px -74px; width: 96px; height: 25px; }
+
+.icon-label-expert-day { background-position: -0px -99px; width: 87px; height: 87px; }
+
+.icon-qiwi { background-position: -0px -186px; width: 87px; height: 29px; }
+
+.icon-mastercard { background-position: -0px -215px; width: 83px; height: 29px; }
+
+.icon-sofort { background-position: -0px -244px; width: 80px; height: 25px; }
+
+.icon-stars,
+.profile-content .pc-assessment .ai-rating .ai-star,
+.rv-rating .rv-star { background-position: -0px -269px; width: 80px; height: 14px; }
+
+.icon-yandex-money { background-position: -83px -215px; width: 75px; height: 32px; }
+
+.icon-visa { background-position: -87px -99px; width: 68px; height: 30px; }
+
+.icon-expert-leaders-hover,
+.list-item_expert-leaders a:hover .link-icon { background-position: -98px -49px; width: 41px; height: 41px; }
+
+.icon-expert-leaders { background-position: -87px -129px; width: 41px; height: 41px; }
+
+.icon-faq-hover,
+.list-item_faq a:hover .link-icon { background-position: -87px -170px; width: 41px; height: 40px; }
+
+.icon-faq { background-position: -80px -247px; width: 41px; height: 40px; }
+
+.icon-gadalki-hover,
+.categories-menu .cm-list .list-item_gadalki a:hover .link-icon { background-position: -0px -283px; width: 40px; height: 35px; }
+
+.icon-gadalki { background-position: -40px -283px; width: 40px; height: 35px; }
+
+.icon-astrologis-hover,
+.categories-menu .cm-list .list-item_astrologis a:hover .link-icon { background-position: -80px -287px; width: 39px; height: 28px; }
+
+.icon-astrologis { background-position: -119px -287px; width: 39px; height: 28px; }
+
+.icon-more-experts-hover,
+.categories-menu .cm-list .list-item_more-experts a:hover .link-icon,
+.categories-menu .cm-list .list-item.list-item_more-experts:hover > a .link-icon { background-position: -80px -315px; width: 39px; height: 41px; }
+
+.icon-more-experts { background-position: -119px -315px; width: 39px; height: 41px; }
+
+.icon-yasnovid-hover,
+.categories-menu .cm-list .list-item_yasnovid a:hover .link-icon { background-position: -0px -318px; width: 39px; height: 27px; }
+
+.icon-yasnovid { background-position: -39px -318px; width: 39px; height: 27px; }
+
+.icon-questions-leaders-hover,
+.list-item_questions-leaders a:hover .link-icon { background-position: -0px -345px; width: 36px; height: 40px; }
+
+.icon-questions-leaders { background-position: -36px -345px; width: 36px; height: 40px; }
+
+.icon-chat-hover,
+.pws_tabs_controll .pws_tab_active .icon-chat,
+.pws_tabs_controll a:hover .icon-chat { background-position: -121px -247px; width: 34px; height: 21px; }
+
+.icon-chat { background-position: -72px -356px; width: 34px; height: 21px; }
+
+.icon-ekstrasenses-hover,
+.categories-menu .cm-list .list-item_ektrasenses a:hover .link-icon { background-position: -106px -356px; width: 34px; height: 41px; }
+
+.icon-ekstrasenses { background-position: -72px -377px; width: 34px; height: 41px; }
+
+.icon-taro-hover,
+.categories-menu .cm-list .list-item_taro a:hover .link-icon { background-position: -0px -385px; width: 33px; height: 39px; }
+
+.icon-taro { background-position: -33px -385px; width: 33px; height: 39px; }
+
+.icon-categories-hover,
+.list-item_categories a:hover .link-icon { background-position: -128px -129px; width: 31px; height: 41px; }
+
+.icon-categories { background-position: -128px -170px; width: 31px; height: 41px; }
+
+.icon-lock { background-position: -106px -397px; width: 31px; height: 40px; }
+
+.icon-psyhologis-hover,
+.categories-menu .cm-list .list-item_psyhologis a:hover .link-icon { background-position: -66px -418px; width: 31px; height: 34px; }
+
+.icon-psyhologis { background-position: -0px -424px; width: 31px; height: 34px; }
+
+.icon-credits-hover,
+.pws_tabs_controll .pws_tab_active .icon-credits,
+.pws_tabs_controll a:hover .icon-credits { background-position: -31px -424px; width: 29px; height: 22px; }
+
+.icon-credits { background-position: -97px -437px; width: 29px; height: 22px; }
+
+.icon-info-user-hover,
+.pws_tabs_controll .pws_tab_active .icon-info-user,
+.pws_tabs_controll a:hover .icon-info-user { background-position: -126px -437px; width: 29px; height: 22px; }
+
+.icon-info-user { background-position: -31px -446px; width: 29px; height: 22px; }
+
+.icon-diagonal-line { background-position: -60px -452px; width: 28px; height: 27px; }
+
+.icon-microfon-gray-off { background-position: -0px -458px; width: 28px; height: 27px; }
+
+.icon-reviews-hover,
+.pws_tabs_controll .pws_tab_active .icon-reviews,
+.pws_tabs_controll a:hover .icon-reviews { background-position: -88px -459px; width: 28px; height: 31px; }
+
+.icon-reviews { background-position: -116px -459px; width: 28px; height: 31px; }
+
+.icon-sound-gray-off { background-position: -28px -468px; width: 28px; height: 27px; }
+
+.icon-video-gray-off { background-position: -56px -479px; width: 28px; height: 27px; }
+
+.icon-submit-review-hover,
+.videochat-chat .form .btn:hover .icon-submit-review { background-position: -0px -485px; width: 26px; height: 19px; }
+
+.icon-submit-review { background-position: -84px -490px; width: 26px; height: 19px; }
+
+.icon-timer-block { background-position: -110px -490px; width: 25px; height: 27px; }
+
+.icon-photo { background-position: -135px -490px; width: 24px; height: 19px; }
+
+.icon-video-gray { background-position: -121px -268px; width: 24px; height: 14px; }
+
+.icon-video { background-position: -26px -495px; width: 24px; height: 14px; }
+
+.icon-message-empty-hover,
+.incoming-message:hover .icon-message-empty,
+.incoming-message.active .icon-message-empty { background-position: -0px -504px; width: 23px; height: 18px; }
+
+.icon-message-empty { background-position: -50px -506px; width: 23px; height: 18px; }
+
+.icon-star-empty-hover,
+.favorite-experts:hover .icon-star-empty,
+.favorite-experts.active .icon-star-empty { background-position: -137px -397px; width: 22px; height: 21px; }
+
+.icon-star-empty { background-position: -135px -509px; width: 22px; height: 21px; }
+
+.icon-star-hover,
+.favorite-experts.have-experts:hover .icon-star-empty,
+.favorite-experts.have-experts.active .icon-star-empty { background-position: -23px -509px; width: 22px; height: 21px; }
+
+.icon-star,
+.have-experts .icon-star-empty { background-position: -73px -509px; width: 22px; height: 21px; }
+
+.icon-fullscreen { background-position: -95px -517px; width: 21px; height: 21px; }
+
+.icon-message-hover,
+.have-message.incoming-message:hover .icon-message-empty,
+.have-message.incoming-message.active .icon-message-empty { background-position: -137px -418px; width: 21px; height: 16px; }
+
+.icon-message,
+.have-message.incoming-message .icon-message-empty { background-position: -0px -522px; width: 21px; height: 16px; }
+
+.icon-user-hover,
+.have-message.incoming-message .icon-message-empty { background-position: -45px -524px; width: 21px; height: 21px; }
+
+.icon-user,
+.h-container_header .hc-cabinet .hc-link-no-auth span { background-position: -116px -530px; width: 21px; height: 21px; }
+
+.icon-fullscreen-off { background-position: -139px -49px; width: 19px; height: 19px; }
+
+.icon-close-hover,
+.li-close:hover { background-position: -139px -68px; width: 18px; height: 19px; }
+
+.icon-close-white { background-position: -140px -356px; width: 18px; height: 19px; }
+
+.icon-close { background-position: -140px -375px; width: 18px; height: 19px; }
+
+.icon-sound-gray { background-position: -21px -530px; width: 18px; height: 18px; }
+
+.icon-sound-on { background-position: -66px -530px; width: 18px; height: 14px; }
+
+.icon-answer { background-position: -137px -530px; width: 17px; height: 16px; }
+
+.icon-sound-off { background-position: -0px -538px; width: 17px; height: 14px; }
+
+.icon-staple { background-position: -84px -538px; width: 17px; height: 15px; }
+
+.icon-star-empty-blue { background-position: -66px -544px; width: 17px; height: 16px; }
+
+.icon-star-hover-blue { background-position: -39px -545px; width: 17px; height: 16px; }
+
+.icon-microfon-gray { background-position: -137px -546px; width: 16px; height: 26px; }
+
+.icon-microfon { background-position: -17px -548px; width: 16px; height: 26px; }
+
+.icon-search-hover,
+.h-container_header .hc-search-link:hover span,
+.h-container_header .hc-search-link.active span { background-position: -101px -551px; width: 16px; height: 15px; }
+
+.icon-search,
+.btn-search:hover .icon-search-hover { background-position: -117px -551px; width: 16px; height: 15px; }
+
+.icon-user-empty-blue { background-position: -0px -552px; width: 16px; height: 15px; }
+
+.icon-user-hover-blue { background-position: -83px -553px; width: 16px; height: 15px; }
+
+.icon-pause-gray { background-position: -144px -459px; width: 15px; height: 18px; }
+
+.icon-star-empty-rating,
+.profile-content .pc-assessment .ai-rating .ai-star.ai-star-empty,
+.rv-rating .rv-star-empty { background-position: -56px -560px; width: 15px; height: 14px; }
+
+.icon-close-white-small { background-position: -145px -268px; width: 14px; height: 14px; }
+
+.icon-gift { background-position: -33px -561px; width: 14px; height: 17px; }
+
+.icon-pen-hover { background-position: -99px -566px; width: 14px; height: 18px; }
+
+.icon-pen { background-position: -113px -566px; width: 14px; height: 18px; }
+
+.icon-busy { background-position: -0px -567px; width: 13px; height: 13px; }
+
+.icon-calendar { background-position: -139px -87px; width: 13px; height: 11px; }
+
+.icon-no-on-site { background-position: -71px -568px; width: 13px; height: 13px; }
+
+.icon-online { background-position: -84px -568px; width: 13px; height: 13px; }
+
+.icon-play-gray { background-position: -127px -572px; width: 13px; height: 20px; }
+
+.icon-play-hover,
+.ic-item .i-img .btn-play:hover .icon-play,
+.pi-video .piv-thumbnail .btn-play:hover .icon-play { background-position: -140px -572px; width: 13px; height: 20px; }
+
+.icon-play { background-position: -47px -574px; width: 13px; height: 20px; }
+
+.icon-arrow-left-hover,
+.wrapper-slider .slick-prev:hover i { background-position: -13px -574px; width: 12px; height: 19px; }
+
+.icon-arrow-left { background-position: -25px -578px; width: 12px; height: 19px; }
+
+.icon-arrow-right-hover,
+.wrapper-slider .slick-next:hover i { background-position: -0px -580px; width: 12px; height: 19px; }
+
+.icon-arrow-right { background-position: -60px -581px; width: 12px; height: 19px; }
+
+.icon-star-small-empty-hover,
+.ic-item:hover .ic-rating .icon-star-small-empty { background-position: -144px -477px; width: 12px; height: 12px; }
+
+.icon-star-small-empty { background-position: -116px -517px; width: 12px; height: 12px; }
+
+.icon-star-small-hover,
+.ic-item:hover .ic-rating .icon-star-small { background-position: -101px -538px; width: 12px; height: 12px; }
+
+.icon-star-small { background-position: -72px -581px; width: 12px; height: 12px; }
+
+.icon-arrow-down-hover,
+.h-container_header .hc-menu > ul > li:hover > a .ml-link,
+.user-info:hover .ui-name .icon-arrow-down,
+.user-info.active .ui-name .icon-arrow-down { background-position: -96px -90px; width: 9px; height: 5px; }
+
+.icon-arrow-down-white,
+.h-container_sidebar .current > a > .icon-arrow-right-small,
+.h-container_sidebar .show .hc-link .arrow,
+.tabs-wrapper .t-list .t-item .t-title.current .t-arrow { background-position: -105px -90px; width: 9px; height: 5px; }
+
+.icon-arrow-down,
+.h-container_header .hc-menu > ul > li > a .ml-link { background-position: -114px -90px; width: 9px; height: 5px; }
+
+.icon-arrow-right-black-small,
+.breadcrumbs .b-wrapper .b-item .b-link:after,
+.breadcrumbs_static .b-wrapper .b-item .b-crumb:after,
+.breadcrumbs_static .b-wrapper .b-item .b-ok:after { background-position: -152px -87px; width: 5px; height: 9px; }
+
+.icon-arrow-right-small-hover,
+.h-container_header .hc-menu > ul > li > ul > li:hover > a > span { background-position: -72px -345px; width: 5px; height: 9px; }
+
+.icon-arrow-right-small { background-position: -66px -385px; width: 5px; height: 9px; }
+
+.icon-arrow-right-violet-small,
+.breadcrumbs .b-wrapper .b-item .b-link:hover:after,
+.breadcrumbs_static .b-wrapper .b-item .b-current:after { background-position: -66px -394px; width: 5px; height: 9px; }
+
+/* ------------------------Icons (End)------------------------ */

@@ -1,0 +1,71 @@
+#Cover {
+
+    }
+    #Cover h2 {
+        font-size:85px;
+        margin-top: -.5em;
+        }
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.3;
+    }
+
+#hail-node {
+
+    }
+
+    #hail-node h2 {
+        margin-top: -150px;
+        font-size: 130px;
+        }
+
+    #hail-node img {
+        margin-top: 80px;
+        width: 720px;
+        }
+
+#suffer2,
+#suffer {
+
+    }
+
+    #suffer2 h2,
+    #suffer h2 {
+        font-size: 100px;
+        }
+
+    #suffer2 h2 div,
+    #suffer h2 div {
+        font-size: 176px;
+        line-height: 1.2;
+        }
+
+#build {
+
+    }
+
+    #build h2 {
+        font-size: 100px;
+        padding: .5em 0;
+        margin-top: -20px;
+        background: rgba(255, 255, 255, .95);
+        }
+
+.grunt {
+    text-align: center;
+    font-size: 40px;
+    }
+
+#perf h2 {
+    font-size: 110px;
+    }
+
+.mobile .hide-for-mobile {
+	display: none !important;
+	}

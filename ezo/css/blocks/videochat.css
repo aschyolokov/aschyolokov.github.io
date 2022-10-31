@@ -1,0 +1,651 @@
+@charset "UTF-8";
+
+/* ------------------------Videochat (Start)------------------------ */
+
+.popup-container_videochat .videochat-video {
+  position: relative;
+}
+
+@media only screen and (min-width: 1000px) {
+  .popup-container_videochat .videochat-video {
+    float: left;
+    width: 580px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .popup-container_videochat .videochat-video {
+    width: 860px;
+  }
+}
+
+.popup-container_videochat .videochat-video img {
+  display: block;
+}
+
+.videochat-video_tooltip-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 260px;
+  margin-left: -130px;
+  margin-top: -50px;
+  z-index: 99999;
+  text-align: left;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 20px 10px 10px;
+  background-color: rgba(0,0,0,.8);
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.videochat-video_tooltip-message .tooltip-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  opacity: .8;
+}
+
+.videochat-video_tooltip-message .tooltip-close:hover {
+  opacity: 1;
+}
+
+@media only screen and (min-width: 480px) {
+  .videochat-video_tooltip-message {
+    top: 5px;
+    margin-top: auto;
+    background-color: rgba(0,0,0,.6);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .videochat-video_tooltip-message {
+    top: 60px;
+    margin-left: -145px;
+    width: 290px;
+    padding: 15px 40px 15px 20px;
+    line-height: 22px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .videochat-video_tooltip-message {
+    top: 30px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .videochat-video_tooltip-message {
+    top: 105px;
+    line-height: 24px;
+  }
+}
+
+.popup-container_videochat .videochat-video .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 254px;
+  margin-left: -127px;
+  margin-top: -22px;
+}
+
+.popup-container_videochat .videochat-video .control-btns {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  width: 134px;
+  display: inline-block;
+  margin-left: -67px;
+}
+
+.popup-container_videochat .videochat-video .control-btns .cb-btn {
+  display: block;
+  float: left;
+  margin-left: 1px;
+  background-color: rgba(0,0,0,.6);
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.popup-container_videochat .videochat-video .control-btns .cb-btn.cb-btn_video {
+  padding-top: 12px;
+}
+
+.popup-container_videochat .videochat-video .control-btns .cb-btn.cb-btn_sound {
+  padding-top: 8px;
+}
+
+.popup-container_videochat .videochat-video .control-btns .cb-btn.cb-btn_cancel {
+  padding-top: 13px;
+}
+
+.popup-container_videochat .videochat-video .control-btns .cb-btn:first-child {
+  margin-left: 0;
+  -webkit-border-radius: 4px 0 0 4px;
+     -moz-border-radius: 4px 0 0 4px;
+      -ms-border-radius: 4px 0 0 4px;
+          border-radius: 4px 0 0 4px;
+}
+
+.popup-container_videochat .videochat-video .control-btns .cb-btn:last-child {
+  -webkit-border-radius: 0 4px 4px 0;
+     -moz-border-radius: 0 4px 4px 0;
+      -ms-border-radius: 0 4px 4px 0;
+          border-radius: 0 4px 4px 0;
+}
+
+.popup-container_videochat .videochat-video .control-btns .cb-btn i {
+  opacity: .8;
+}
+
+.popup-container_videochat .videochat-video .control-btns .cb-btn:hover i {
+  opacity: 1;
+}
+
+.popup-container_videochat .videochat-video .control-btns .cb-btn .cbb-tooltip {
+  display: none;
+  position: absolute;
+  top: -77px;
+  left: 50%;
+  width: 250px;
+  padding: 10px 15px 12px;
+  z-index: 99999;
+  text-align: left;
+  color: #fff;
+  background-color: rgba(0,0,0,.6);
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+          border-radius: 4px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .popup-container_videochat .videochat-video .control-btns .cb-btn.cb-btn_video .cbb-tooltip {
+    left: -147px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .popup-container_videochat .videochat-video .control-btns .cb-btn.cb-btn_sound .cbb-tooltip {
+    left: 144px;
+  }
+}
+
+.popup-container_videochat .videochat-video .control-btns .cb-btn.cb-btn_video .cbb-tooltip {
+  margin-left: -80px;
+}
+
+.popup-container_videochat .videochat-video .control-btns .cb-btn.cb-btn_sound .cbb-tooltip {
+  margin-left: -125px;
+}
+
+.popup-container_videochat .videochat-video .control-btns .cb-btn .cbb-tooltip .tooltip-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  opacity: .8;
+}
+
+.popup-container_videochat .videochat-video .control-btns .cb-btn .cbb-tooltip .tooltip-close:hover {
+  opacity: 1;
+}
+
+.popup-container_videochat .videochat-video .control-btns .cb-btn .cbb-tooltip .cbb-tooltip-text {
+  font-size: 14px;
+  display: block;
+  margin-top: 7px;
+}
+
+.popup-container_videochat .videochat-video .control-btns .cb-btn .cbb-tooltip .tooltip-triangel {
+  position: absolute;
+  bottom: -10px;
+  border-style: solid;
+  border-width: 0 10px 10px 0;
+  border-color: transparent rgba(0,0,0,.6) transparent transparent;
+}
+
+@media only screen and (min-width: 1000px) {
+  .popup-container_videochat .videochat-video .control-btns .cb-btn.cb-btn_video .cbb-tooltip .tooltip-triangel {
+    left: 237px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .popup-container_videochat .videochat-video .control-btns .cb-btn.cb-btn_sound .cbb-tooltip .tooltip-triangel {
+    border-width: 0 0 10px 10px;
+    border-color: transparent transparent transparent rgba(0,0,0,.6);
+    left: 3px;
+  }
+}
+
+.popup-container_videochat .videochat-video .control-btns .cb-btn .line {
+  display: none;
+  position: absolute;
+  top: 9px;
+  left: 6px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .pws_tabs_container {
+    float: right;
+    width: 360px;
+  }
+}
+
+.pws_tabs_container ul.pws_tabs_controll {
+  background-color: #783eaf;
+}
+
+.pws_tabs_container ul.pws_tabs_controll li {
+  border-right: 1px solid #9870c1;
+}
+
+.pws_tabs_container ul.pws_tabs_controll li a {
+  height: 60px;
+  background-color: transparent;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #fff;
+  position: relative;
+}
+
+.pws_tabs_container ul.pws_tabs_controll li a:hover,
+.pws_tabs_container ul.pws_tabs_controll li a.pws_tab_active {
+  background-color: #e8e8e8;
+}
+
+.pws_tabs_container ul.pws_tabs_controll li a .icon-chat {
+  margin-top: 20px;
+}
+
+.pws_tabs_container ul.pws_tabs_controll li a .icon-credits {
+  margin-top: 19px;
+}
+
+.pws_tabs_container ul.pws_tabs_controll li a .icon-info-user {
+  margin-top: 19px;
+}
+
+.pws_tabs_container ul.pws_tabs_controll li a .icon-reviews {
+  margin-top: 14px;
+}
+
+.pws_tabs_container ul.pws_tabs_controll li a .ct-counter {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 14px;
+  display: block;
+  width: 16px;
+  text-align: center;
+  padding-top: 3px;
+  line-height: 1;
+  background-color: #d42850;
+-webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+        border-radius: 3px;
+}
+
+.pws_tabs_list {
+  background-color: #fff;
+  padding-bottom: 30px;
+}
+
+.pws_tab_single {
+  top: 10px;
+  width: 100%;
+}
+
+.videochat-chat {
+  padding: 0 0 0 20px;
+}
+
+.videochat-chat .jspVerticalBar .jspCap,
+.videochat-info-expert .jspVerticalBar .jspCap,
+.videochat-reviews .jspVerticalBar .jspCap {
+  height: 0;
+}
+
+.videochat-chat .vc-list {
+  margin-bottom: 13px;
+  height: 117px;
+}
+
+.videochat-chat .vc-list .vc-list-item {
+  margin-bottom: 20px;
+  margin-top: 5px;
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.videochat-chat .vc-list .vc-list-item:last-child {
+  margin-bottom: 0;
+}
+
+.videochat-chat .vc-list .vc-list-item .vc-name {
+  font-weight: 500;
+  float: left;
+}
+
+.videochat-chat .vc-list .vc-list-item.current .vc-name {
+  color: #783eaf;
+}
+
+.videochat-chat .vc-list .vc-list-item .vc-time {
+  float: right;
+  font-size: 12px;
+  color: #757778;
+  padding-top: 2px;
+}
+
+.videochat-chat .vc-list .vc-list-item .vc-text {
+  margin-top: 5px;
+}
+
+.videochat-chat .form input {
+  float: left;
+}
+
+@media only screen and (min-width: 480px) {
+  .videochat-chat .form input {
+    width: 285px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .videochat-chat .form input {
+    width: 568px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .videochat-chat .form input {
+    width: 200px;
+  }
+}
+
+.videochat-chat .form .btn {
+  float: right;
+  padding: 11px 9px;
+  margin-right: 21px;
+}
+
+.videochat-info-expert {
+  width: 100%;
+  height: 185px;
+  margin-top: 13px;
+}
+
+.videochat-info-expert .info-expert-container,
+.videochat-reviews .reviews-container {
+  margin-right: 20px;
+  padding-left: 20px;
+}
+
+.videochat-reviews {
+  width: 100%;
+  height: 165px;
+  margin-top: 13px;
+}
+
+.info-expert-container .iec-name {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.info-expert-container .iec-op,
+.info-expert-container .iec-rating {
+  font-size: 14px;
+  color: #757778;
+  display: inline-block;
+  font-weight: 400;
+}
+
+.info-expert-container .iec-rating {
+  margin-left: 15px;
+}
+
+.info-expert-container .iec-price {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.info-expert-container .iec-language {
+  font-size: 14px;
+  color: #757778;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.info-expert-container .iec-text {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 20px;
+  border-top: 1px solid #e9e8e6;
+  line-height: 1.4;
+}
+
+.info-expert-container .iec-text p {
+  margin-top: 20px;
+}
+
+.reviews-container .reviews-item {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e9e8e6;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .reviews-container .reviews-item {
+    font-size: 14px;
+  }
+}
+
+.reviews-container .reviews-item .ri-rating {
+  float: left;
+}
+
+.reviews-container .reviews-item .ri-date {
+  float: right;
+  color: #757778;
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .reviews-container .reviews-item .ri-date {
+    margin-top: 3px;
+  }
+}
+
+.reviews-container .reviews-item .ri-text {
+  line-height: 1.4;
+  margin: 10px 0;
+}
+
+.reviews-container .reviews-item .ri-author {
+  font-weight: 500;
+}
+
+.videochat-reviews + .btn {
+  margin: 10px 20px 0;
+}
+
+@media only screen and (min-width: 480px) {
+  .videochat-reviews + .btn {
+    width: 300px;
+    margin: 20px auto 0;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .videochat-reviews + .btn {
+    width: 244px;
+    margin: 20px 20px 0;
+  }
+}
+
+.videochat-credits {
+  width: 100%;
+  height: 165px;
+  margin: 13px 20px 0;
+}
+
+.popup-container_videochat-reviews {
+  padding: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .popup-container_videochat-reviews {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+.rv-rating .rv-star {
+  width: 15px;
+  height: 14px;
+  display: inline-block;
+  background-image: url('../../images/sprite.png');
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.rv-rating .rv-star.rv-star-1 {
+  background-position-x: 0;
+}
+
+.rv-rating .rv-star.rv-star-2 {
+  background-position-x: -16px;
+}
+
+.rv-rating .rv-star.rv-star-3 {
+  background-position-x: -32px;
+}
+
+.rv-rating .rv-star.rv-star-4 {
+  background-position-x: -48px;
+}
+
+.rv-rating .rv-star.rv-star-5 {
+  background-position-x: -64px;
+}
+
+.rv-rating .rv-star.rv-star-empty {
+  margin-left: 1px
+}
+
+.popup-container_videochat-reviews .vr-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 480px) {
+  .popup-container_videochat-reviews .vr-title {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #videochat_reviews_add_popup {
+    width: 700px;
+    height: auto;
+  }
+}
+
+.popup-container_videochat-reviews .form .f-field {
+  margin-bottom: 20px;
+}
+
+.popup-container_videochat-reviews .form .f-field input,
+.popup-container_videochat-reviews .form .f-field textarea,
+.popup-container_videochat-reviews .form .btn {
+  width: 100%;
+}
+
+.popup-container_videochat-reviews .form .f-field textarea {
+  height: 140px;
+}
+
+.popup-container_videochat-reviews .form .f-field label {
+  margin-bottom: 8px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .popup-container_videochat-reviews .form .btn {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .pws_tabs_list {
+    margin-bottom: 10px;
+  }
+
+  .popup_content .pws_tabs_container.pws_tabs_vertical,
+  .popup_content .pws_tabs_container.pws_tabs_vertical ul,
+  .popup_content .pws_tabs_container.pws_tabs_vertical .videochat-tab {
+    height: 335px;
+  }
+
+  .pws_tabs_container ul.pws_tabs_controll li {
+    border-right: none;
+  }
+
+  .pws_tabs_container.pws_tabs_vertical ul.pws_tabs_controll li a {
+    margin-bottom: 0;
+  }
+
+  .videochat-chat .vc-list {
+    height: auto;
+  }
+
+  .videochat-info-expert {
+    height: 305px;
+    margin-top: 0;
+  }
+
+  .videochat-reviews {
+    height: 235px;
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .popup_content .pws_tabs_container.pws_tabs_vertical,
+  .popup_content .pws_tabs_container.pws_tabs_vertical ul,
+  .popup_content .pws_tabs_container.pws_tabs_vertical .videochat-tab {
+    height: 495px;
+  }
+
+  .videochat-chat .vc-list {
+    height: 405px;
+  }
+
+  .videochat-info-expert {
+    height: 465px;
+  }
+
+  .videochat-reviews {
+    height: 395px;
+  }
+}
+
+/* ------------------------Videochat (End)------------------------ */
